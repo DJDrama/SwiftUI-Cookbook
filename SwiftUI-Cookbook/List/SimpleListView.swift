@@ -12,7 +12,7 @@ struct Friend: Identifiable {
     let name: String
 }
 
-struct ListView: View {
+struct SimpleListView: View {
     let friends = [
         Friend(name: "dj"),
         Friend(name: "dongster"),
@@ -34,5 +34,5 @@ struct ListView: View {
 }
 
 #Preview {
-    ListView()
+    SimpleListView()
 }
