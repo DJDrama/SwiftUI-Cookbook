@@ -13,6 +13,7 @@
 		D20BD83A2D13FF3400AF4BD3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D20BD8392D13FF3400AF4BD3 /* Preview Assets.xcassets */; };
 		D20BD8422D14058A00AF4BD3 /* SimpleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BD8412D14058A00AF4BD3 /* SimpleListView.swift */; };
 		D20BD8442D1407FE00AF4BD3 /* AlternateRowStyleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BD8432D1407FE00AF4BD3 /* AlternateRowStyleListView.swift */; };
+		D20BD8462D14099800AF4BD3 /* AddRemoveMoveItemsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BD8452D14099800AF4BD3 /* AddRemoveMoveItemsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		D20BD8392D13FF3400AF4BD3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D20BD8412D14058A00AF4BD3 /* SimpleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleListView.swift; sourceTree = "<group>"; };
 		D20BD8432D1407FE00AF4BD3 /* AlternateRowStyleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlternateRowStyleListView.swift; sourceTree = "<group>"; };
+		D20BD8452D14099800AF4BD3 /* AddRemoveMoveItemsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRemoveMoveItemsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				D20BD8412D14058A00AF4BD3 /* SimpleListView.swift */,
 				D20BD8432D1407FE00AF4BD3 /* AlternateRowStyleListView.swift */,
+				D20BD8452D14099800AF4BD3 /* AddRemoveMoveItemsListView.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			files = (
 				D20BD8352D13FF3100AF4BD3 /* ContentView.swift in Sources */,
 				D20BD8332D13FF3100AF4BD3 /* SwiftUI_CookbookApp.swift in Sources */,
+				D20BD8462D14099800AF4BD3 /* AddRemoveMoveItemsListView.swift in Sources */,
 				D20BD8442D1407FE00AF4BD3 /* AlternateRowStyleListView.swift in Sources */,
 				D20BD8422D14058A00AF4BD3 /* SimpleListView.swift in Sources */,
 			);
