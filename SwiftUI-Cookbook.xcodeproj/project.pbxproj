@@ -17,6 +17,7 @@
 		D20BD8482D1410D700AF4BD3 /* RemoveSeparateStyleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BD8472D1410D700AF4BD3 /* RemoveSeparateStyleListView.swift */; };
 		D20BD84A2D14114E00AF4BD3 /* GroupedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BD8492D14114E00AF4BD3 /* GroupedListView.swift */; };
 		D20BD84D2D1581E800AF4BD3 /* ChangeBackgroundColorListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BD84C2D1581E800AF4BD3 /* ChangeBackgroundColorListView.swift */; };
+		D20BD84F2D1583BF00AF4BD3 /* PullToRefreshListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BD84E2D1583BF00AF4BD3 /* PullToRefreshListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		D20BD8472D1410D700AF4BD3 /* RemoveSeparateStyleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveSeparateStyleListView.swift; sourceTree = "<group>"; };
 		D20BD8492D14114E00AF4BD3 /* GroupedListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupedListView.swift; sourceTree = "<group>"; };
 		D20BD84C2D1581E800AF4BD3 /* ChangeBackgroundColorListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeBackgroundColorListView.swift; sourceTree = "<group>"; };
+		D20BD84E2D1583BF00AF4BD3 /* PullToRefreshListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToRefreshListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				D20BD8472D1410D700AF4BD3 /* RemoveSeparateStyleListView.swift */,
 				D20BD8492D14114E00AF4BD3 /* GroupedListView.swift */,
 				D20BD84C2D1581E800AF4BD3 /* ChangeBackgroundColorListView.swift */,
+				D20BD84E2D1583BF00AF4BD3 /* PullToRefreshListView.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 				D20BD8482D1410D700AF4BD3 /* RemoveSeparateStyleListView.swift in Sources */,
 				D20BD84A2D14114E00AF4BD3 /* GroupedListView.swift in Sources */,
 				D20BD8442D1407FE00AF4BD3 /* AlternateRowStyleListView.swift in Sources */,
+				D20BD84F2D1583BF00AF4BD3 /* PullToRefreshListView.swift in Sources */,
 				D20BD8422D14058A00AF4BD3 /* SimpleListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
