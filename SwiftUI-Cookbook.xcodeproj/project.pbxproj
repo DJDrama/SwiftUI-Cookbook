@@ -16,6 +16,7 @@
 		D20BD8462D14099800AF4BD3 /* AddRemoveMoveItemsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BD8452D14099800AF4BD3 /* AddRemoveMoveItemsListView.swift */; };
 		D20BD8482D1410D700AF4BD3 /* RemoveSeparateStyleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BD8472D1410D700AF4BD3 /* RemoveSeparateStyleListView.swift */; };
 		D20BD84A2D14114E00AF4BD3 /* GroupedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BD8492D14114E00AF4BD3 /* GroupedListView.swift */; };
+		D20BD84D2D1581E800AF4BD3 /* ChangeBackgroundColorListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BD84C2D1581E800AF4BD3 /* ChangeBackgroundColorListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		D20BD8452D14099800AF4BD3 /* AddRemoveMoveItemsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRemoveMoveItemsListView.swift; sourceTree = "<group>"; };
 		D20BD8472D1410D700AF4BD3 /* RemoveSeparateStyleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveSeparateStyleListView.swift; sourceTree = "<group>"; };
 		D20BD8492D14114E00AF4BD3 /* GroupedListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupedListView.swift; sourceTree = "<group>"; };
+		D20BD84C2D1581E800AF4BD3 /* ChangeBackgroundColorListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeBackgroundColorListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				D20BD8452D14099800AF4BD3 /* AddRemoveMoveItemsListView.swift */,
 				D20BD8472D1410D700AF4BD3 /* RemoveSeparateStyleListView.swift */,
 				D20BD8492D14114E00AF4BD3 /* GroupedListView.swift */,
+				D20BD84C2D1581E800AF4BD3 /* ChangeBackgroundColorListView.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			files = (
 				D20BD8352D13FF3100AF4BD3 /* ContentView.swift in Sources */,
 				D20BD8332D13FF3100AF4BD3 /* SwiftUI_CookbookApp.swift in Sources */,
+				D20BD84D2D1581E800AF4BD3 /* ChangeBackgroundColorListView.swift in Sources */,
 				D20BD8462D14099800AF4BD3 /* AddRemoveMoveItemsListView.swift in Sources */,
 				D20BD8482D1410D700AF4BD3 /* RemoveSeparateStyleListView.swift in Sources */,
 				D20BD84A2D14114E00AF4BD3 /* GroupedListView.swift in Sources */,
