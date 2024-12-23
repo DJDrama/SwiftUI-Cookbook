@@ -25,6 +25,7 @@
 		D20BD8592D192F9600AF4BD3 /* SelectMultipleItemsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BD8582D192F9600AF4BD3 /* SelectMultipleItemsListView.swift */; };
 		D20BD85B2D1930A500AF4BD3 /* CollapsibleHeadersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BD85A2D1930A500AF4BD3 /* CollapsibleHeadersListView.swift */; };
 		D20BD85D2D19339A00AF4BD3 /* InfiniteScrollableListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BD85C2D19339A00AF4BD3 /* InfiniteScrollableListView.swift */; };
+		D20BD85F2D19367000AF4BD3 /* CheckBoxListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BD85E2D19367000AF4BD3 /* CheckBoxListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		D20BD8582D192F9600AF4BD3 /* SelectMultipleItemsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectMultipleItemsListView.swift; sourceTree = "<group>"; };
 		D20BD85A2D1930A500AF4BD3 /* CollapsibleHeadersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleHeadersListView.swift; sourceTree = "<group>"; };
 		D20BD85C2D19339A00AF4BD3 /* InfiniteScrollableListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteScrollableListView.swift; sourceTree = "<group>"; };
+		D20BD85E2D19367000AF4BD3 /* CheckBoxListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				D20BD8582D192F9600AF4BD3 /* SelectMultipleItemsListView.swift */,
 				D20BD85A2D1930A500AF4BD3 /* CollapsibleHeadersListView.swift */,
 				D20BD85C2D19339A00AF4BD3 /* InfiniteScrollableListView.swift */,
+				D20BD85E2D19367000AF4BD3 /* CheckBoxListView.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 				D20BD8352D13FF3100AF4BD3 /* ContentView.swift in Sources */,
 				D20BD8332D13FF3100AF4BD3 /* SwiftUI_CookbookApp.swift in Sources */,
 				D20BD8532D1587A300AF4BD3 /* ClickableCompleteRowListView.swift in Sources */,
+				D20BD85F2D19367000AF4BD3 /* CheckBoxListView.swift in Sources */,
 				D20BD84D2D1581E800AF4BD3 /* ChangeBackgroundColorListView.swift in Sources */,
 				D20BD8572D158CD500AF4BD3 /* SwipeActionListView.swift in Sources */,
 				D20BD8462D14099800AF4BD3 /* AddRemoveMoveItemsListView.swift in Sources */,
