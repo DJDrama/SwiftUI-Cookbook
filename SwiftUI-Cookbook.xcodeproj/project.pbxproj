@@ -22,6 +22,7 @@
 		D20BD8532D1587A300AF4BD3 /* ClickableCompleteRowListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BD8522D1587A300AF4BD3 /* ClickableCompleteRowListView.swift */; };
 		D20BD8552D158B2700AF4BD3 /* AutoScrollToAParticularSectionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BD8542D158B2700AF4BD3 /* AutoScrollToAParticularSectionListView.swift */; };
 		D20BD8572D158CD500AF4BD3 /* SwipeActionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BD8562D158CD500AF4BD3 /* SwipeActionListView.swift */; };
+		D20BD8592D192F9600AF4BD3 /* SelectMultipleItemsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BD8582D192F9600AF4BD3 /* SelectMultipleItemsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		D20BD8522D1587A300AF4BD3 /* ClickableCompleteRowListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickableCompleteRowListView.swift; sourceTree = "<group>"; };
 		D20BD8542D158B2700AF4BD3 /* AutoScrollToAParticularSectionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoScrollToAParticularSectionListView.swift; sourceTree = "<group>"; };
 		D20BD8562D158CD500AF4BD3 /* SwipeActionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionListView.swift; sourceTree = "<group>"; };
+		D20BD8582D192F9600AF4BD3 /* SelectMultipleItemsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectMultipleItemsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				D20BD8522D1587A300AF4BD3 /* ClickableCompleteRowListView.swift */,
 				D20BD8542D158B2700AF4BD3 /* AutoScrollToAParticularSectionListView.swift */,
 				D20BD8562D158CD500AF4BD3 /* SwipeActionListView.swift */,
+				D20BD8582D192F9600AF4BD3 /* SelectMultipleItemsListView.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				D20BD8572D158CD500AF4BD3 /* SwipeActionListView.swift in Sources */,
 				D20BD8462D14099800AF4BD3 /* AddRemoveMoveItemsListView.swift in Sources */,
 				D20BD8482D1410D700AF4BD3 /* RemoveSeparateStyleListView.swift in Sources */,
+				D20BD8592D192F9600AF4BD3 /* SelectMultipleItemsListView.swift in Sources */,
 				D20BD84A2D14114E00AF4BD3 /* GroupedListView.swift in Sources */,
 				D20BD8442D1407FE00AF4BD3 /* AlternateRowStyleListView.swift in Sources */,
 				D20BD8512D1584B900AF4BD3 /* SearchAndFilterResultsListView.swift in Sources */,
