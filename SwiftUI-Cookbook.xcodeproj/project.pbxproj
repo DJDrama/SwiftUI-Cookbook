@@ -26,6 +26,7 @@
 		D20BD85B2D1930A500AF4BD3 /* CollapsibleHeadersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BD85A2D1930A500AF4BD3 /* CollapsibleHeadersListView.swift */; };
 		D20BD85D2D19339A00AF4BD3 /* InfiniteScrollableListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BD85C2D19339A00AF4BD3 /* InfiniteScrollableListView.swift */; };
 		D20BD85F2D19367000AF4BD3 /* CheckBoxListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BD85E2D19367000AF4BD3 /* CheckBoxListView.swift */; };
+		D20BD8612D19383A00AF4BD3 /* RadioButtonsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BD8602D19383A00AF4BD3 /* RadioButtonsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		D20BD85A2D1930A500AF4BD3 /* CollapsibleHeadersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleHeadersListView.swift; sourceTree = "<group>"; };
 		D20BD85C2D19339A00AF4BD3 /* InfiniteScrollableListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteScrollableListView.swift; sourceTree = "<group>"; };
 		D20BD85E2D19367000AF4BD3 /* CheckBoxListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxListView.swift; sourceTree = "<group>"; };
+		D20BD8602D19383A00AF4BD3 /* RadioButtonsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				D20BD85A2D1930A500AF4BD3 /* CollapsibleHeadersListView.swift */,
 				D20BD85C2D19339A00AF4BD3 /* InfiniteScrollableListView.swift */,
 				D20BD85E2D19367000AF4BD3 /* CheckBoxListView.swift */,
+				D20BD8602D19383A00AF4BD3 /* RadioButtonsListView.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				D20BD85D2D19339A00AF4BD3 /* InfiniteScrollableListView.swift in Sources */,
 				D20BD8482D1410D700AF4BD3 /* RemoveSeparateStyleListView.swift in Sources */,
 				D20BD8592D192F9600AF4BD3 /* SelectMultipleItemsListView.swift in Sources */,
+				D20BD8612D19383A00AF4BD3 /* RadioButtonsListView.swift in Sources */,
 				D20BD84A2D14114E00AF4BD3 /* GroupedListView.swift in Sources */,
 				D20BD8442D1407FE00AF4BD3 /* AlternateRowStyleListView.swift in Sources */,
 				D20BD8512D1584B900AF4BD3 /* SearchAndFilterResultsListView.swift in Sources */,
