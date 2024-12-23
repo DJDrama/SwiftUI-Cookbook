@@ -24,6 +24,7 @@
 		D20BD8572D158CD500AF4BD3 /* SwipeActionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BD8562D158CD500AF4BD3 /* SwipeActionListView.swift */; };
 		D20BD8592D192F9600AF4BD3 /* SelectMultipleItemsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BD8582D192F9600AF4BD3 /* SelectMultipleItemsListView.swift */; };
 		D20BD85B2D1930A500AF4BD3 /* CollapsibleHeadersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BD85A2D1930A500AF4BD3 /* CollapsibleHeadersListView.swift */; };
+		D20BD85D2D19339A00AF4BD3 /* InfiniteScrollableListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BD85C2D19339A00AF4BD3 /* InfiniteScrollableListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		D20BD8562D158CD500AF4BD3 /* SwipeActionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionListView.swift; sourceTree = "<group>"; };
 		D20BD8582D192F9600AF4BD3 /* SelectMultipleItemsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectMultipleItemsListView.swift; sourceTree = "<group>"; };
 		D20BD85A2D1930A500AF4BD3 /* CollapsibleHeadersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleHeadersListView.swift; sourceTree = "<group>"; };
+		D20BD85C2D19339A00AF4BD3 /* InfiniteScrollableListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteScrollableListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				D20BD8562D158CD500AF4BD3 /* SwipeActionListView.swift */,
 				D20BD8582D192F9600AF4BD3 /* SelectMultipleItemsListView.swift */,
 				D20BD85A2D1930A500AF4BD3 /* CollapsibleHeadersListView.swift */,
+				D20BD85C2D19339A00AF4BD3 /* InfiniteScrollableListView.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 				D20BD84D2D1581E800AF4BD3 /* ChangeBackgroundColorListView.swift in Sources */,
 				D20BD8572D158CD500AF4BD3 /* SwipeActionListView.swift in Sources */,
 				D20BD8462D14099800AF4BD3 /* AddRemoveMoveItemsListView.swift in Sources */,
+				D20BD85D2D19339A00AF4BD3 /* InfiniteScrollableListView.swift in Sources */,
 				D20BD8482D1410D700AF4BD3 /* RemoveSeparateStyleListView.swift in Sources */,
 				D20BD8592D192F9600AF4BD3 /* SelectMultipleItemsListView.swift in Sources */,
 				D20BD84A2D14114E00AF4BD3 /* GroupedListView.swift in Sources */,
