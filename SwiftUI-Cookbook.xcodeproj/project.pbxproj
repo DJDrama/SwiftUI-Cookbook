@@ -27,6 +27,7 @@
 		D20BD85D2D19339A00AF4BD3 /* InfiniteScrollableListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BD85C2D19339A00AF4BD3 /* InfiniteScrollableListView.swift */; };
 		D20BD85F2D19367000AF4BD3 /* CheckBoxListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BD85E2D19367000AF4BD3 /* CheckBoxListView.swift */; };
 		D20BD8612D19383A00AF4BD3 /* RadioButtonsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BD8602D19383A00AF4BD3 /* RadioButtonsListView.swift */; };
+		D20BD8652D1D39B100AF4BD3 /* SimpleGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BD8642D1D39B100AF4BD3 /* SimpleGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		D20BD85C2D19339A00AF4BD3 /* InfiniteScrollableListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteScrollableListView.swift; sourceTree = "<group>"; };
 		D20BD85E2D19367000AF4BD3 /* CheckBoxListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxListView.swift; sourceTree = "<group>"; };
 		D20BD8602D19383A00AF4BD3 /* RadioButtonsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonsListView.swift; sourceTree = "<group>"; };
+		D20BD8642D1D39B100AF4BD3 /* SimpleGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		D20BD8312D13FF3100AF4BD3 /* SwiftUI-Cookbook */ = {
 			isa = PBXGroup;
 			children = (
+				D20BD8622D1D399400AF4BD3 /* Grid&Stacks */,
 				D20BD8402D13FF5200AF4BD3 /* List */,
 				D20BD8322D13FF3100AF4BD3 /* SwiftUI_CookbookApp.swift */,
 				D20BD8342D13FF3100AF4BD3 /* ContentView.swift */,
@@ -121,6 +124,14 @@
 				D20BD8602D19383A00AF4BD3 /* RadioButtonsListView.swift */,
 			);
 			path = List;
+			sourceTree = "<group>";
+		};
+		D20BD8622D1D399400AF4BD3 /* Grid&Stacks */ = {
+			isa = PBXGroup;
+			children = (
+				D20BD8642D1D39B100AF4BD3 /* SimpleGridView.swift */,
+			);
+			path = "Grid&Stacks";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +206,7 @@
 			files = (
 				D20BD8352D13FF3100AF4BD3 /* ContentView.swift in Sources */,
 				D20BD8332D13FF3100AF4BD3 /* SwiftUI_CookbookApp.swift in Sources */,
+				D20BD8652D1D39B100AF4BD3 /* SimpleGridView.swift in Sources */,
 				D20BD8532D1587A300AF4BD3 /* ClickableCompleteRowListView.swift in Sources */,
 				D20BD85F2D19367000AF4BD3 /* CheckBoxListView.swift in Sources */,
 				D20BD84D2D1581E800AF4BD3 /* ChangeBackgroundColorListView.swift in Sources */,
