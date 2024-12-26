@@ -30,6 +30,7 @@
 		D20BD8652D1D39B100AF4BD3 /* SimpleGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BD8642D1D39B100AF4BD3 /* SimpleGridView.swift */; };
 		D20BD8672D1D3CC600AF4BD3 /* StickyHeaderGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BD8662D1D3CC600AF4BD3 /* StickyHeaderGridView.swift */; };
 		D20BD8692D1D3F6700AF4BD3 /* HeroAnimationUsingMatchedGeometryEffectGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BD8682D1D3F6700AF4BD3 /* HeroAnimationUsingMatchedGeometryEffectGridView.swift */; };
+		D20BD86B2D1D479C00AF4BD3 /* WrapHstackInMultipleLinesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BD86A2D1D479C00AF4BD3 /* WrapHstackInMultipleLinesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		D20BD8642D1D39B100AF4BD3 /* SimpleGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGridView.swift; sourceTree = "<group>"; };
 		D20BD8662D1D3CC600AF4BD3 /* StickyHeaderGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyHeaderGridView.swift; sourceTree = "<group>"; };
 		D20BD8682D1D3F6700AF4BD3 /* HeroAnimationUsingMatchedGeometryEffectGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroAnimationUsingMatchedGeometryEffectGridView.swift; sourceTree = "<group>"; };
+		D20BD86A2D1D479C00AF4BD3 /* WrapHstackInMultipleLinesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrapHstackInMultipleLinesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 				D20BD8642D1D39B100AF4BD3 /* SimpleGridView.swift */,
 				D20BD8662D1D3CC600AF4BD3 /* StickyHeaderGridView.swift */,
 				D20BD8682D1D3F6700AF4BD3 /* HeroAnimationUsingMatchedGeometryEffectGridView.swift */,
+				D20BD86A2D1D479C00AF4BD3 /* WrapHstackInMultipleLinesView.swift */,
 			);
 			path = "Grid&Stacks";
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				D20BD8652D1D39B100AF4BD3 /* SimpleGridView.swift in Sources */,
 				D20BD8532D1587A300AF4BD3 /* ClickableCompleteRowListView.swift in Sources */,
 				D20BD85F2D19367000AF4BD3 /* CheckBoxListView.swift in Sources */,
+				D20BD86B2D1D479C00AF4BD3 /* WrapHstackInMultipleLinesView.swift in Sources */,
 				D20BD84D2D1581E800AF4BD3 /* ChangeBackgroundColorListView.swift in Sources */,
 				D20BD8572D158CD500AF4BD3 /* SwipeActionListView.swift in Sources */,
 				D20BD8462D14099800AF4BD3 /* AddRemoveMoveItemsListView.swift in Sources */,
