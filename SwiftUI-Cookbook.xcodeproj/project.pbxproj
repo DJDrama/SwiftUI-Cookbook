@@ -36,6 +36,7 @@
 		D2A95F872D1E809500517FB3 /* MagnifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F862D1E809500517FB3 /* MagnifyView.swift */; };
 		D2A95F892D1E827900517FB3 /* RotateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F882D1E827900517FB3 /* RotateView.swift */; };
 		D2A95F8B2D1E836700517FB3 /* DragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F8A2D1E836700517FB3 /* DragView.swift */; };
+		D2A95F8D2D1E84FF00517FB3 /* 3DRotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F8C2D1E84FF00517FB3 /* 3DRotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +70,7 @@
 		D2A95F862D1E809500517FB3 /* MagnifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnifyView.swift; sourceTree = "<group>"; };
 		D2A95F882D1E827900517FB3 /* RotateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateView.swift; sourceTree = "<group>"; };
 		D2A95F8A2D1E836700517FB3 /* DragView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragView.swift; sourceTree = "<group>"; };
+		D2A95F8C2D1E84FF00517FB3 /* 3DRotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3DRotationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 				D2A95F862D1E809500517FB3 /* MagnifyView.swift */,
 				D2A95F882D1E827900517FB3 /* RotateView.swift */,
 				D2A95F8A2D1E836700517FB3 /* DragView.swift */,
+				D2A95F8C2D1E84FF00517FB3 /* 3DRotationView.swift */,
 			);
 			path = Gestures;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				D20BD8482D1410D700AF4BD3 /* RemoveSeparateStyleListView.swift in Sources */,
 				D20BD8592D192F9600AF4BD3 /* SelectMultipleItemsListView.swift in Sources */,
 				D20BD8612D19383A00AF4BD3 /* RadioButtonsListView.swift in Sources */,
+				D2A95F8D2D1E84FF00517FB3 /* 3DRotationView.swift in Sources */,
 				D2A95F872D1E809500517FB3 /* MagnifyView.swift in Sources */,
 				D20BD84A2D14114E00AF4BD3 /* GroupedListView.swift in Sources */,
 				D20BD8442D1407FE00AF4BD3 /* AlternateRowStyleListView.swift in Sources */,
