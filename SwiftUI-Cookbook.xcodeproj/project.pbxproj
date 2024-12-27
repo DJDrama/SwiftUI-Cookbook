@@ -34,6 +34,7 @@
 		D2A95F822D1E7E6100517FB3 /* DateFormattingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F812D1E7E6100517FB3 /* DateFormattingView.swift */; };
 		D2A95F842D1E7F7A00517FB3 /* ListFormattingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F832D1E7F7A00517FB3 /* ListFormattingView.swift */; };
 		D2A95F872D1E809500517FB3 /* MagnifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F862D1E809500517FB3 /* MagnifyView.swift */; };
+		D2A95F892D1E827900517FB3 /* RotateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F882D1E827900517FB3 /* RotateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,7 @@
 		D2A95F812D1E7E6100517FB3 /* DateFormattingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormattingView.swift; sourceTree = "<group>"; };
 		D2A95F832D1E7F7A00517FB3 /* ListFormattingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFormattingView.swift; sourceTree = "<group>"; };
 		D2A95F862D1E809500517FB3 /* MagnifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnifyView.swift; sourceTree = "<group>"; };
+		D2A95F882D1E827900517FB3 /* RotateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				D2A95F862D1E809500517FB3 /* MagnifyView.swift */,
+				D2A95F882D1E827900517FB3 /* RotateView.swift */,
 			);
 			path = Gestures;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 				D20BD8572D158CD500AF4BD3 /* SwipeActionListView.swift in Sources */,
 				D2A95F822D1E7E6100517FB3 /* DateFormattingView.swift in Sources */,
 				D20BD8462D14099800AF4BD3 /* AddRemoveMoveItemsListView.swift in Sources */,
+				D2A95F892D1E827900517FB3 /* RotateView.swift in Sources */,
 				D20BD85D2D19339A00AF4BD3 /* InfiniteScrollableListView.swift in Sources */,
 				D20BD8482D1410D700AF4BD3 /* RemoveSeparateStyleListView.swift in Sources */,
 				D20BD8592D192F9600AF4BD3 /* SelectMultipleItemsListView.swift in Sources */,
