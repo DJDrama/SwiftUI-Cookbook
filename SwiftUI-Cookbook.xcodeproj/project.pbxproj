@@ -31,6 +31,7 @@
 		D20BD8672D1D3CC600AF4BD3 /* StickyHeaderGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BD8662D1D3CC600AF4BD3 /* StickyHeaderGridView.swift */; };
 		D20BD8692D1D3F6700AF4BD3 /* HeroAnimationUsingMatchedGeometryEffectGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BD8682D1D3F6700AF4BD3 /* HeroAnimationUsingMatchedGeometryEffectGridView.swift */; };
 		D20BD86B2D1D479C00AF4BD3 /* WrapHstackInMultipleLinesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BD86A2D1D479C00AF4BD3 /* WrapHstackInMultipleLinesView.swift */; };
+		D2A95F822D1E7E6100517FB3 /* DateFormattingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F812D1E7E6100517FB3 /* DateFormattingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		D20BD8662D1D3CC600AF4BD3 /* StickyHeaderGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyHeaderGridView.swift; sourceTree = "<group>"; };
 		D20BD8682D1D3F6700AF4BD3 /* HeroAnimationUsingMatchedGeometryEffectGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroAnimationUsingMatchedGeometryEffectGridView.swift; sourceTree = "<group>"; };
 		D20BD86A2D1D479C00AF4BD3 /* WrapHstackInMultipleLinesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrapHstackInMultipleLinesView.swift; sourceTree = "<group>"; };
+		D2A95F812D1E7E6100517FB3 /* DateFormattingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormattingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 		D20BD8312D13FF3100AF4BD3 /* SwiftUI-Cookbook */ = {
 			isa = PBXGroup;
 			children = (
+				D2A95F802D1E7DF800517FB3 /* FormattingModifiers */,
 				D20BD8622D1D399400AF4BD3 /* Grid&Stacks */,
 				D20BD8402D13FF5200AF4BD3 /* List */,
 				D20BD8322D13FF3100AF4BD3 /* SwiftUI_CookbookApp.swift */,
@@ -141,6 +144,14 @@
 				D20BD86A2D1D479C00AF4BD3 /* WrapHstackInMultipleLinesView.swift */,
 			);
 			path = "Grid&Stacks";
+			sourceTree = "<group>";
+		};
+		D2A95F802D1E7DF800517FB3 /* FormattingModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				D2A95F812D1E7E6100517FB3 /* DateFormattingView.swift */,
+			);
+			path = FormattingModifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +232,7 @@
 				D20BD86B2D1D479C00AF4BD3 /* WrapHstackInMultipleLinesView.swift in Sources */,
 				D20BD84D2D1581E800AF4BD3 /* ChangeBackgroundColorListView.swift in Sources */,
 				D20BD8572D158CD500AF4BD3 /* SwipeActionListView.swift in Sources */,
+				D2A95F822D1E7E6100517FB3 /* DateFormattingView.swift in Sources */,
 				D20BD8462D14099800AF4BD3 /* AddRemoveMoveItemsListView.swift in Sources */,
 				D20BD85D2D19339A00AF4BD3 /* InfiniteScrollableListView.swift in Sources */,
 				D20BD8482D1410D700AF4BD3 /* RemoveSeparateStyleListView.swift in Sources */,
