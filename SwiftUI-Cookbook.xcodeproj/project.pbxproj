@@ -33,6 +33,7 @@
 		D20BD86B2D1D479C00AF4BD3 /* WrapHstackInMultipleLinesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BD86A2D1D479C00AF4BD3 /* WrapHstackInMultipleLinesView.swift */; };
 		D2A95F822D1E7E6100517FB3 /* DateFormattingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F812D1E7E6100517FB3 /* DateFormattingView.swift */; };
 		D2A95F842D1E7F7A00517FB3 /* ListFormattingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F832D1E7F7A00517FB3 /* ListFormattingView.swift */; };
+		D2A95F872D1E809500517FB3 /* MagnifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F862D1E809500517FB3 /* MagnifyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,7 @@
 		D20BD86A2D1D479C00AF4BD3 /* WrapHstackInMultipleLinesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrapHstackInMultipleLinesView.swift; sourceTree = "<group>"; };
 		D2A95F812D1E7E6100517FB3 /* DateFormattingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormattingView.swift; sourceTree = "<group>"; };
 		D2A95F832D1E7F7A00517FB3 /* ListFormattingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFormattingView.swift; sourceTree = "<group>"; };
+		D2A95F862D1E809500517FB3 /* MagnifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnifyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		D20BD8312D13FF3100AF4BD3 /* SwiftUI-Cookbook */ = {
 			isa = PBXGroup;
 			children = (
+				D2A95F852D1E808B00517FB3 /* Gestures */,
 				D2A95F802D1E7DF800517FB3 /* FormattingModifiers */,
 				D20BD8622D1D399400AF4BD3 /* Grid&Stacks */,
 				D20BD8402D13FF5200AF4BD3 /* List */,
@@ -155,6 +158,14 @@
 				D2A95F832D1E7F7A00517FB3 /* ListFormattingView.swift */,
 			);
 			path = FormattingModifiers;
+			sourceTree = "<group>";
+		};
+		D2A95F852D1E808B00517FB3 /* Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				D2A95F862D1E809500517FB3 /* MagnifyView.swift */,
+			);
+			path = Gestures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +253,7 @@
 				D20BD8482D1410D700AF4BD3 /* RemoveSeparateStyleListView.swift in Sources */,
 				D20BD8592D192F9600AF4BD3 /* SelectMultipleItemsListView.swift in Sources */,
 				D20BD8612D19383A00AF4BD3 /* RadioButtonsListView.swift in Sources */,
+				D2A95F872D1E809500517FB3 /* MagnifyView.swift in Sources */,
 				D20BD84A2D14114E00AF4BD3 /* GroupedListView.swift in Sources */,
 				D20BD8442D1407FE00AF4BD3 /* AlternateRowStyleListView.swift in Sources */,
 				D20BD8512D1584B900AF4BD3 /* SearchAndFilterResultsListView.swift in Sources */,
