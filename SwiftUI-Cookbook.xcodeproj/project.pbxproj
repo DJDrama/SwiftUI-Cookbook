@@ -38,6 +38,7 @@
 		D28775672D225B4800ABF188 /* RedCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28775662D225B4800ABF188 /* RedCounterView.swift */; };
 		D28775692D225BD800ABF188 /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28775682D225BD800ABF188 /* Counter.swift */; };
 		D287756B2D225DC400ABF188 /* OptionalBindingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D287756A2D225DC400ABF188 /* OptionalBindingsView.swift */; };
+		D287756D2D225E8100ABF188 /* OnChangeModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D287756C2D225E8100ABF188 /* OnChangeModifierView.swift */; };
 		D2A95F822D1E7E6100517FB3 /* DateFormattingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F812D1E7E6100517FB3 /* DateFormattingView.swift */; };
 		D2A95F842D1E7F7A00517FB3 /* ListFormattingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F832D1E7F7A00517FB3 /* ListFormattingView.swift */; };
 		D2A95F872D1E809500517FB3 /* MagnifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F862D1E809500517FB3 /* MagnifyView.swift */; };
@@ -79,6 +80,7 @@
 		D28775662D225B4800ABF188 /* RedCounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedCounterView.swift; sourceTree = "<group>"; };
 		D28775682D225BD800ABF188 /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
 		D287756A2D225DC400ABF188 /* OptionalBindingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalBindingsView.swift; sourceTree = "<group>"; };
+		D287756C2D225E8100ABF188 /* OnChangeModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnChangeModifierView.swift; sourceTree = "<group>"; };
 		D2A95F812D1E7E6100517FB3 /* DateFormattingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormattingView.swift; sourceTree = "<group>"; };
 		D2A95F832D1E7F7A00517FB3 /* ListFormattingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFormattingView.swift; sourceTree = "<group>"; };
 		D2A95F862D1E809500517FB3 /* MagnifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnifyView.swift; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 				D28775612D225AF600ABF188 /* GlobalStateUsingEnvironmentObject */,
 				D287755E2D22587800ABF188 /* PassDataFromChild */,
 				D287756A2D225DC400ABF188 /* OptionalBindingsView.swift */,
+				D287756C2D225E8100ABF188 /* OnChangeModifierView.swift */,
 			);
 			path = "Data-Flow";
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 				D20BD8612D19383A00AF4BD3 /* RadioButtonsListView.swift in Sources */,
 				D2A95F8D2D1E84FF00517FB3 /* 3DRotationView.swift in Sources */,
 				D28775602D22588800ABF188 /* AddItemView.swift in Sources */,
+				D287756D2D225E8100ABF188 /* OnChangeModifierView.swift in Sources */,
 				D2A95F872D1E809500517FB3 /* MagnifyView.swift in Sources */,
 				D20BD84A2D14114E00AF4BD3 /* GroupedListView.swift in Sources */,
 				D20BD8442D1407FE00AF4BD3 /* AlternateRowStyleListView.swift in Sources */,
