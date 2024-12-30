@@ -39,6 +39,7 @@
 		D28775692D225BD800ABF188 /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28775682D225BD800ABF188 /* Counter.swift */; };
 		D287756B2D225DC400ABF188 /* OptionalBindingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D287756A2D225DC400ABF188 /* OptionalBindingsView.swift */; };
 		D287756D2D225E8100ABF188 /* OnChangeModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D287756C2D225E8100ABF188 /* OnChangeModifierView.swift */; };
+		D287756F2D2261CB00ABF188 /* OnReceiveModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D287756E2D2261CB00ABF188 /* OnReceiveModifier.swift */; };
 		D2A95F822D1E7E6100517FB3 /* DateFormattingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F812D1E7E6100517FB3 /* DateFormattingView.swift */; };
 		D2A95F842D1E7F7A00517FB3 /* ListFormattingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F832D1E7F7A00517FB3 /* ListFormattingView.swift */; };
 		D2A95F872D1E809500517FB3 /* MagnifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F862D1E809500517FB3 /* MagnifyView.swift */; };
@@ -81,6 +82,7 @@
 		D28775682D225BD800ABF188 /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
 		D287756A2D225DC400ABF188 /* OptionalBindingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalBindingsView.swift; sourceTree = "<group>"; };
 		D287756C2D225E8100ABF188 /* OnChangeModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnChangeModifierView.swift; sourceTree = "<group>"; };
+		D287756E2D2261CB00ABF188 /* OnReceiveModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnReceiveModifier.swift; sourceTree = "<group>"; };
 		D2A95F812D1E7E6100517FB3 /* DateFormattingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormattingView.swift; sourceTree = "<group>"; };
 		D2A95F832D1E7F7A00517FB3 /* ListFormattingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFormattingView.swift; sourceTree = "<group>"; };
 		D2A95F862D1E809500517FB3 /* MagnifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnifyView.swift; sourceTree = "<group>"; };
@@ -181,6 +183,7 @@
 				D287755E2D22587800ABF188 /* PassDataFromChild */,
 				D287756A2D225DC400ABF188 /* OptionalBindingsView.swift */,
 				D287756C2D225E8100ABF188 /* OnChangeModifierView.swift */,
+				D287756E2D2261CB00ABF188 /* OnReceiveModifier.swift */,
 			);
 			path = "Data-Flow";
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				D28775692D225BD800ABF188 /* Counter.swift in Sources */,
 				D20BD8512D1584B900AF4BD3 /* SearchAndFilterResultsListView.swift in Sources */,
 				D20BD84F2D1583BF00AF4BD3 /* PullToRefreshListView.swift in Sources */,
+				D287756F2D2261CB00ABF188 /* OnReceiveModifier.swift in Sources */,
 				D20BD8692D1D3F6700AF4BD3 /* HeroAnimationUsingMatchedGeometryEffectGridView.swift in Sources */,
 				D20BD8552D158B2700AF4BD3 /* AutoScrollToAParticularSectionListView.swift in Sources */,
 				D28775672D225B4800ABF188 /* RedCounterView.swift in Sources */,
