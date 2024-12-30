@@ -17,6 +17,7 @@ struct DisplayImageView: View {
     
     var body: some View {
         List(self.cats, id: \.self) { catUrl in
+            
             URLImageView(url: catUrl)
                 .aspectRatio(contentMode: .fit)
         }

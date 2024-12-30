@@ -43,6 +43,7 @@
 		D28775742D22635000ABF188 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28775732D22635000ABF188 /* ImageLoader.swift */; };
 		D28775762D22640600ABF188 /* URLImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28775752D22640600ABF188 /* URLImageView.swift */; };
 		D28775782D22650F00ABF188 /* DisplayImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28775772D22650F00ABF188 /* DisplayImageView.swift */; };
+		D287757A2D22668000ABF188 /* AppStorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28775792D22668000ABF188 /* AppStorageView.swift */; };
 		D2A95F822D1E7E6100517FB3 /* DateFormattingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F812D1E7E6100517FB3 /* DateFormattingView.swift */; };
 		D2A95F842D1E7F7A00517FB3 /* ListFormattingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F832D1E7F7A00517FB3 /* ListFormattingView.swift */; };
 		D2A95F872D1E809500517FB3 /* MagnifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F862D1E809500517FB3 /* MagnifyView.swift */; };
@@ -89,6 +90,7 @@
 		D28775732D22635000ABF188 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		D28775752D22640600ABF188 /* URLImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImageView.swift; sourceTree = "<group>"; };
 		D28775772D22650F00ABF188 /* DisplayImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayImageView.swift; sourceTree = "<group>"; };
+		D28775792D22668000ABF188 /* AppStorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageView.swift; sourceTree = "<group>"; };
 		D2A95F812D1E7E6100517FB3 /* DateFormattingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormattingView.swift; sourceTree = "<group>"; };
 		D2A95F832D1E7F7A00517FB3 /* ListFormattingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFormattingView.swift; sourceTree = "<group>"; };
 		D2A95F862D1E809500517FB3 /* MagnifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnifyView.swift; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 				D287756A2D225DC400ABF188 /* OptionalBindingsView.swift */,
 				D287756C2D225E8100ABF188 /* OnChangeModifierView.swift */,
 				D287756E2D2261CB00ABF188 /* OnReceiveModifier.swift */,
+				D28775792D22668000ABF188 /* AppStorageView.swift */,
 			);
 			path = "Data-Flow";
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 				D287756F2D2261CB00ABF188 /* OnReceiveModifier.swift in Sources */,
 				D20BD8692D1D3F6700AF4BD3 /* HeroAnimationUsingMatchedGeometryEffectGridView.swift in Sources */,
 				D20BD8552D158B2700AF4BD3 /* AutoScrollToAParticularSectionListView.swift in Sources */,
+				D287757A2D22668000ABF188 /* AppStorageView.swift in Sources */,
 				D28775672D225B4800ABF188 /* RedCounterView.swift in Sources */,
 				D20BD85B2D1930A500AF4BD3 /* CollapsibleHeadersListView.swift in Sources */,
 				D28775652D225B4100ABF188 /* GreenCounterView.swift in Sources */,
