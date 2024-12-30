@@ -33,6 +33,10 @@
 		D20BD86B2D1D479C00AF4BD3 /* WrapHstackInMultipleLinesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BD86A2D1D479C00AF4BD3 /* WrapHstackInMultipleLinesView.swift */; };
 		D287755D2D22584000ABF188 /* PassDataFromChildToParentUsingBindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D287755C2D22584000ABF188 /* PassDataFromChildToParentUsingBindingView.swift */; };
 		D28775602D22588800ABF188 /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D287755F2D22588800ABF188 /* AddItemView.swift */; };
+		D28775632D225B1200ABF188 /* GlobalStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28775622D225B1200ABF188 /* GlobalStateView.swift */; };
+		D28775652D225B4100ABF188 /* GreenCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28775642D225B4100ABF188 /* GreenCounterView.swift */; };
+		D28775672D225B4800ABF188 /* RedCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28775662D225B4800ABF188 /* RedCounterView.swift */; };
+		D28775692D225BD800ABF188 /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28775682D225BD800ABF188 /* Counter.swift */; };
 		D2A95F822D1E7E6100517FB3 /* DateFormattingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F812D1E7E6100517FB3 /* DateFormattingView.swift */; };
 		D2A95F842D1E7F7A00517FB3 /* ListFormattingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F832D1E7F7A00517FB3 /* ListFormattingView.swift */; };
 		D2A95F872D1E809500517FB3 /* MagnifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F862D1E809500517FB3 /* MagnifyView.swift */; };
@@ -69,6 +73,10 @@
 		D20BD86A2D1D479C00AF4BD3 /* WrapHstackInMultipleLinesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrapHstackInMultipleLinesView.swift; sourceTree = "<group>"; };
 		D287755C2D22584000ABF188 /* PassDataFromChildToParentUsingBindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassDataFromChildToParentUsingBindingView.swift; sourceTree = "<group>"; };
 		D287755F2D22588800ABF188 /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
+		D28775622D225B1200ABF188 /* GlobalStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalStateView.swift; sourceTree = "<group>"; };
+		D28775642D225B4100ABF188 /* GreenCounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenCounterView.swift; sourceTree = "<group>"; };
+		D28775662D225B4800ABF188 /* RedCounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedCounterView.swift; sourceTree = "<group>"; };
+		D28775682D225BD800ABF188 /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
 		D2A95F812D1E7E6100517FB3 /* DateFormattingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormattingView.swift; sourceTree = "<group>"; };
 		D2A95F832D1E7F7A00517FB3 /* ListFormattingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFormattingView.swift; sourceTree = "<group>"; };
 		D2A95F862D1E809500517FB3 /* MagnifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnifyView.swift; sourceTree = "<group>"; };
@@ -165,6 +173,7 @@
 		D287755B2D22582400ABF188 /* Data-Flow */ = {
 			isa = PBXGroup;
 			children = (
+				D28775612D225AF600ABF188 /* GlobalStateUsingEnvironmentObject */,
 				D287755E2D22587800ABF188 /* PassDataFromChild */,
 			);
 			path = "Data-Flow";
@@ -177,6 +186,17 @@
 				D287755F2D22588800ABF188 /* AddItemView.swift */,
 			);
 			path = PassDataFromChild;
+			sourceTree = "<group>";
+		};
+		D28775612D225AF600ABF188 /* GlobalStateUsingEnvironmentObject */ = {
+			isa = PBXGroup;
+			children = (
+				D28775622D225B1200ABF188 /* GlobalStateView.swift */,
+				D28775662D225B4800ABF188 /* RedCounterView.swift */,
+				D28775642D225B4100ABF188 /* GreenCounterView.swift */,
+				D28775682D225BD800ABF188 /* Counter.swift */,
+			);
+			path = GlobalStateUsingEnvironmentObject;
 			sourceTree = "<group>";
 		};
 		D2A95F802D1E7DF800517FB3 /* FormattingModifiers */ = {
@@ -272,6 +292,7 @@
 				D20BD8352D13FF3100AF4BD3 /* ContentView.swift in Sources */,
 				D20BD8332D13FF3100AF4BD3 /* SwiftUI_CookbookApp.swift in Sources */,
 				D20BD8652D1D39B100AF4BD3 /* SimpleGridView.swift in Sources */,
+				D28775632D225B1200ABF188 /* GlobalStateView.swift in Sources */,
 				D20BD8532D1587A300AF4BD3 /* ClickableCompleteRowListView.swift in Sources */,
 				D20BD85F2D19367000AF4BD3 /* CheckBoxListView.swift in Sources */,
 				D2A95F842D1E7F7A00517FB3 /* ListFormattingView.swift in Sources */,
@@ -292,11 +313,14 @@
 				D2A95F872D1E809500517FB3 /* MagnifyView.swift in Sources */,
 				D20BD84A2D14114E00AF4BD3 /* GroupedListView.swift in Sources */,
 				D20BD8442D1407FE00AF4BD3 /* AlternateRowStyleListView.swift in Sources */,
+				D28775692D225BD800ABF188 /* Counter.swift in Sources */,
 				D20BD8512D1584B900AF4BD3 /* SearchAndFilterResultsListView.swift in Sources */,
 				D20BD84F2D1583BF00AF4BD3 /* PullToRefreshListView.swift in Sources */,
 				D20BD8692D1D3F6700AF4BD3 /* HeroAnimationUsingMatchedGeometryEffectGridView.swift in Sources */,
 				D20BD8552D158B2700AF4BD3 /* AutoScrollToAParticularSectionListView.swift in Sources */,
+				D28775672D225B4800ABF188 /* RedCounterView.swift in Sources */,
 				D20BD85B2D1930A500AF4BD3 /* CollapsibleHeadersListView.swift in Sources */,
+				D28775652D225B4100ABF188 /* GreenCounterView.swift in Sources */,
 				D20BD8672D1D3CC600AF4BD3 /* StickyHeaderGridView.swift in Sources */,
 				D20BD8422D14058A00AF4BD3 /* SimpleListView.swift in Sources */,
 			);

@@ -12,6 +12,8 @@ struct SwiftUI_CookbookApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            // for GlobalStateUsingEnvironmentObject (Counter class)
+                .environmentObject(Counter())
         }
     }
 }
