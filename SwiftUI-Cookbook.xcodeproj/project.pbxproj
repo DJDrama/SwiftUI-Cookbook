@@ -31,6 +31,8 @@
 		D20BD8672D1D3CC600AF4BD3 /* StickyHeaderGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BD8662D1D3CC600AF4BD3 /* StickyHeaderGridView.swift */; };
 		D20BD8692D1D3F6700AF4BD3 /* HeroAnimationUsingMatchedGeometryEffectGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BD8682D1D3F6700AF4BD3 /* HeroAnimationUsingMatchedGeometryEffectGridView.swift */; };
 		D20BD86B2D1D479C00AF4BD3 /* WrapHstackInMultipleLinesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BD86A2D1D479C00AF4BD3 /* WrapHstackInMultipleLinesView.swift */; };
+		D287755D2D22584000ABF188 /* PassDataFromChildToParentUsingBindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D287755C2D22584000ABF188 /* PassDataFromChildToParentUsingBindingView.swift */; };
+		D28775602D22588800ABF188 /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D287755F2D22588800ABF188 /* AddItemView.swift */; };
 		D2A95F822D1E7E6100517FB3 /* DateFormattingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F812D1E7E6100517FB3 /* DateFormattingView.swift */; };
 		D2A95F842D1E7F7A00517FB3 /* ListFormattingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F832D1E7F7A00517FB3 /* ListFormattingView.swift */; };
 		D2A95F872D1E809500517FB3 /* MagnifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F862D1E809500517FB3 /* MagnifyView.swift */; };
@@ -65,6 +67,8 @@
 		D20BD8662D1D3CC600AF4BD3 /* StickyHeaderGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyHeaderGridView.swift; sourceTree = "<group>"; };
 		D20BD8682D1D3F6700AF4BD3 /* HeroAnimationUsingMatchedGeometryEffectGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroAnimationUsingMatchedGeometryEffectGridView.swift; sourceTree = "<group>"; };
 		D20BD86A2D1D479C00AF4BD3 /* WrapHstackInMultipleLinesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrapHstackInMultipleLinesView.swift; sourceTree = "<group>"; };
+		D287755C2D22584000ABF188 /* PassDataFromChildToParentUsingBindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassDataFromChildToParentUsingBindingView.swift; sourceTree = "<group>"; };
+		D287755F2D22588800ABF188 /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
 		D2A95F812D1E7E6100517FB3 /* DateFormattingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormattingView.swift; sourceTree = "<group>"; };
 		D2A95F832D1E7F7A00517FB3 /* ListFormattingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFormattingView.swift; sourceTree = "<group>"; };
 		D2A95F862D1E809500517FB3 /* MagnifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnifyView.swift; sourceTree = "<group>"; };
@@ -103,6 +107,7 @@
 		D20BD8312D13FF3100AF4BD3 /* SwiftUI-Cookbook */ = {
 			isa = PBXGroup;
 			children = (
+				D287755B2D22582400ABF188 /* Data-Flow */,
 				D2A95F852D1E808B00517FB3 /* Gestures */,
 				D2A95F802D1E7DF800517FB3 /* FormattingModifiers */,
 				D20BD8622D1D399400AF4BD3 /* Grid&Stacks */,
@@ -155,6 +160,23 @@
 				D20BD86A2D1D479C00AF4BD3 /* WrapHstackInMultipleLinesView.swift */,
 			);
 			path = "Grid&Stacks";
+			sourceTree = "<group>";
+		};
+		D287755B2D22582400ABF188 /* Data-Flow */ = {
+			isa = PBXGroup;
+			children = (
+				D287755E2D22587800ABF188 /* PassDataFromChild */,
+			);
+			path = "Data-Flow";
+			sourceTree = "<group>";
+		};
+		D287755E2D22587800ABF188 /* PassDataFromChild */ = {
+			isa = PBXGroup;
+			children = (
+				D287755C2D22584000ABF188 /* PassDataFromChildToParentUsingBindingView.swift */,
+				D287755F2D22588800ABF188 /* AddItemView.swift */,
+			);
+			path = PassDataFromChild;
 			sourceTree = "<group>";
 		};
 		D2A95F802D1E7DF800517FB3 /* FormattingModifiers */ = {
@@ -254,6 +276,7 @@
 				D20BD85F2D19367000AF4BD3 /* CheckBoxListView.swift in Sources */,
 				D2A95F842D1E7F7A00517FB3 /* ListFormattingView.swift in Sources */,
 				D20BD86B2D1D479C00AF4BD3 /* WrapHstackInMultipleLinesView.swift in Sources */,
+				D287755D2D22584000ABF188 /* PassDataFromChildToParentUsingBindingView.swift in Sources */,
 				D20BD84D2D1581E800AF4BD3 /* ChangeBackgroundColorListView.swift in Sources */,
 				D2A95F8B2D1E836700517FB3 /* DragView.swift in Sources */,
 				D20BD8572D158CD500AF4BD3 /* SwipeActionListView.swift in Sources */,
@@ -265,6 +288,7 @@
 				D20BD8592D192F9600AF4BD3 /* SelectMultipleItemsListView.swift in Sources */,
 				D20BD8612D19383A00AF4BD3 /* RadioButtonsListView.swift in Sources */,
 				D2A95F8D2D1E84FF00517FB3 /* 3DRotationView.swift in Sources */,
+				D28775602D22588800ABF188 /* AddItemView.swift in Sources */,
 				D2A95F872D1E809500517FB3 /* MagnifyView.swift in Sources */,
 				D20BD84A2D14114E00AF4BD3 /* GroupedListView.swift in Sources */,
 				D20BD8442D1407FE00AF4BD3 /* AlternateRowStyleListView.swift in Sources */,
