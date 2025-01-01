@@ -50,6 +50,7 @@
 		D28775832D25504000ABF188 /* LineGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28775822D25504000ABF188 /* LineGraphView.swift */; };
 		D28775852D2552EA00ABF188 /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28775842D2552EA00ABF188 /* BarChartView.swift */; };
 		D28775882D25532B00ABF188 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28775872D25532B00ABF188 /* Stock.swift */; };
+		D287758A2D25559C00ABF188 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28775892D25559C00ABF188 /* RatingView.swift */; };
 		D2A95F822D1E7E6100517FB3 /* DateFormattingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F812D1E7E6100517FB3 /* DateFormattingView.swift */; };
 		D2A95F842D1E7F7A00517FB3 /* ListFormattingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F832D1E7F7A00517FB3 /* ListFormattingView.swift */; };
 		D2A95F872D1E809500517FB3 /* MagnifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F862D1E809500517FB3 /* MagnifyView.swift */; };
@@ -103,6 +104,7 @@
 		D28775822D25504000ABF188 /* LineGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineGraphView.swift; sourceTree = "<group>"; };
 		D28775842D2552EA00ABF188 /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
 		D28775872D25532B00ABF188 /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
+		D28775892D25559C00ABF188 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		D2A95F812D1E7E6100517FB3 /* DateFormattingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormattingView.swift; sourceTree = "<group>"; };
 		D2A95F832D1E7F7A00517FB3 /* ListFormattingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFormattingView.swift; sourceTree = "<group>"; };
 		D2A95F862D1E809500517FB3 /* MagnifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnifyView.swift; sourceTree = "<group>"; };
@@ -248,6 +250,7 @@
 				D287757C2D254CFB00ABF188 /* GradientsView.swift */,
 				D287757E2D254E6F00ABF188 /* RoundedCornersView.swift */,
 				D28775802D254F5C00ABF188 /* ShapesAndPathsView.swift */,
+				D28775892D25559C00ABF188 /* RatingView.swift */,
 			);
 			path = "Graphics, Shapes, Paths and Effects";
 			sourceTree = "<group>";
@@ -379,6 +382,7 @@
 				D20BD8592D192F9600AF4BD3 /* SelectMultipleItemsListView.swift in Sources */,
 				D20BD8612D19383A00AF4BD3 /* RadioButtonsListView.swift in Sources */,
 				D2A95F8D2D1E84FF00517FB3 /* 3DRotationView.swift in Sources */,
+				D287758A2D25559C00ABF188 /* RatingView.swift in Sources */,
 				D28775602D22588800ABF188 /* AddItemView.swift in Sources */,
 				D287756D2D225E8100ABF188 /* OnChangeModifierView.swift in Sources */,
 				D2A95F872D1E809500517FB3 /* MagnifyView.swift in Sources */,
