@@ -48,6 +48,8 @@
 		D287757F2D254E6F00ABF188 /* RoundedCornersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D287757E2D254E6F00ABF188 /* RoundedCornersView.swift */; };
 		D28775812D254F5C00ABF188 /* ShapesAndPathsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28775802D254F5C00ABF188 /* ShapesAndPathsView.swift */; };
 		D28775832D25504000ABF188 /* LineGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28775822D25504000ABF188 /* LineGraphView.swift */; };
+		D28775852D2552EA00ABF188 /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28775842D2552EA00ABF188 /* BarChartView.swift */; };
+		D28775882D25532B00ABF188 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28775872D25532B00ABF188 /* Stock.swift */; };
 		D2A95F822D1E7E6100517FB3 /* DateFormattingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F812D1E7E6100517FB3 /* DateFormattingView.swift */; };
 		D2A95F842D1E7F7A00517FB3 /* ListFormattingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F832D1E7F7A00517FB3 /* ListFormattingView.swift */; };
 		D2A95F872D1E809500517FB3 /* MagnifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F862D1E809500517FB3 /* MagnifyView.swift */; };
@@ -99,6 +101,8 @@
 		D287757E2D254E6F00ABF188 /* RoundedCornersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornersView.swift; sourceTree = "<group>"; };
 		D28775802D254F5C00ABF188 /* ShapesAndPathsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesAndPathsView.swift; sourceTree = "<group>"; };
 		D28775822D25504000ABF188 /* LineGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineGraphView.swift; sourceTree = "<group>"; };
+		D28775842D2552EA00ABF188 /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
+		D28775872D25532B00ABF188 /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
 		D2A95F812D1E7E6100517FB3 /* DateFormattingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormattingView.swift; sourceTree = "<group>"; };
 		D2A95F832D1E7F7A00517FB3 /* ListFormattingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFormattingView.swift; sourceTree = "<group>"; };
 		D2A95F862D1E809500517FB3 /* MagnifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnifyView.swift; sourceTree = "<group>"; };
@@ -240,12 +244,22 @@
 		D287757B2D254CE400ABF188 /* Graphics, Shapes, Paths and Effects */ = {
 			isa = PBXGroup;
 			children = (
+				D28775862D25531A00ABF188 /* Graph */,
 				D287757C2D254CFB00ABF188 /* GradientsView.swift */,
 				D287757E2D254E6F00ABF188 /* RoundedCornersView.swift */,
 				D28775802D254F5C00ABF188 /* ShapesAndPathsView.swift */,
-				D28775822D25504000ABF188 /* LineGraphView.swift */,
 			);
 			path = "Graphics, Shapes, Paths and Effects";
+			sourceTree = "<group>";
+		};
+		D28775862D25531A00ABF188 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				D28775822D25504000ABF188 /* LineGraphView.swift */,
+				D28775842D2552EA00ABF188 /* BarChartView.swift */,
+				D28775872D25532B00ABF188 /* Stock.swift */,
+			);
+			path = Graph;
 			sourceTree = "<group>";
 		};
 		D2A95F802D1E7DF800517FB3 /* FormattingModifiers */ = {
@@ -339,6 +353,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D20BD8352D13FF3100AF4BD3 /* ContentView.swift in Sources */,
+				D28775852D2552EA00ABF188 /* BarChartView.swift in Sources */,
 				D20BD8332D13FF3100AF4BD3 /* SwiftUI_CookbookApp.swift in Sources */,
 				D20BD8652D1D39B100AF4BD3 /* SimpleGridView.swift in Sources */,
 				D28775632D225B1200ABF188 /* GlobalStateView.swift in Sources */,
@@ -352,6 +367,7 @@
 				D287756B2D225DC400ABF188 /* OptionalBindingsView.swift in Sources */,
 				D287755D2D22584000ABF188 /* PassDataFromChildToParentUsingBindingView.swift in Sources */,
 				D20BD84D2D1581E800AF4BD3 /* ChangeBackgroundColorListView.swift in Sources */,
+				D28775882D25532B00ABF188 /* Stock.swift in Sources */,
 				D2A95F8B2D1E836700517FB3 /* DragView.swift in Sources */,
 				D20BD8572D158CD500AF4BD3 /* SwipeActionListView.swift in Sources */,
 				D28775782D22650F00ABF188 /* DisplayImageView.swift in Sources */,

@@ -7,10 +7,6 @@
 
 import SwiftUI
 
-struct Stock {
-    let price: Double
-}
-
 private func getHistoricalStocks() -> [Stock] {
     var stocks = [Stock]()
     for _ in 1...20 {
