@@ -60,6 +60,7 @@
 		D28775992D26495000ABF188 /* AddImageToNavigationTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28775982D26495000ABF188 /* AddImageToNavigationTitleView.swift */; };
 		D287759B2D2649BD00ABF188 /* ColorNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D287759A2D2649BD00ABF188 /* ColorNavigationBarView.swift */; };
 		D287759D2D264ACD00ABF188 /* PaginationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D287759C2D264ACD00ABF188 /* PaginationView.swift */; };
+		D287759F2D264B8200ABF188 /* NavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D287759E2D264B8200ABF188 /* NavigationStackView.swift */; };
 		D2A95F822D1E7E6100517FB3 /* DateFormattingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F812D1E7E6100517FB3 /* DateFormattingView.swift */; };
 		D2A95F842D1E7F7A00517FB3 /* ListFormattingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F832D1E7F7A00517FB3 /* ListFormattingView.swift */; };
 		D2A95F872D1E809500517FB3 /* MagnifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F862D1E809500517FB3 /* MagnifyView.swift */; };
@@ -123,6 +124,7 @@
 		D28775982D26495000ABF188 /* AddImageToNavigationTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddImageToNavigationTitleView.swift; sourceTree = "<group>"; };
 		D287759A2D2649BD00ABF188 /* ColorNavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorNavigationBarView.swift; sourceTree = "<group>"; };
 		D287759C2D264ACD00ABF188 /* PaginationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginationView.swift; sourceTree = "<group>"; };
+		D287759E2D264B8200ABF188 /* NavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackView.swift; sourceTree = "<group>"; };
 		D2A95F812D1E7E6100517FB3 /* DateFormattingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormattingView.swift; sourceTree = "<group>"; };
 		D2A95F832D1E7F7A00517FB3 /* ListFormattingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFormattingView.swift; sourceTree = "<group>"; };
 		D2A95F862D1E809500517FB3 /* MagnifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnifyView.swift; sourceTree = "<group>"; };
@@ -296,6 +298,7 @@
 				D28775982D26495000ABF188 /* AddImageToNavigationTitleView.swift */,
 				D287759A2D2649BD00ABF188 /* ColorNavigationBarView.swift */,
 				D287759C2D264ACD00ABF188 /* PaginationView.swift */,
+				D287759E2D264B8200ABF188 /* NavigationStackView.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -395,6 +398,7 @@
 				D20BD8332D13FF3100AF4BD3 /* SwiftUI_CookbookApp.swift in Sources */,
 				D20BD8652D1D39B100AF4BD3 /* SimpleGridView.swift in Sources */,
 				D28775632D225B1200ABF188 /* GlobalStateView.swift in Sources */,
+				D287759F2D264B8200ABF188 /* NavigationStackView.swift in Sources */,
 				D20BD8532D1587A300AF4BD3 /* ClickableCompleteRowListView.swift in Sources */,
 				D28775812D254F5C00ABF188 /* ShapesAndPathsView.swift in Sources */,
 				D287757D2D254CFB00ABF188 /* GradientsView.swift in Sources */,
