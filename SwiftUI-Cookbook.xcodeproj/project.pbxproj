@@ -59,6 +59,7 @@
 		D28775972D26482500ABF188 /* ToolbarItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28775962D26482500ABF188 /* ToolbarItemsView.swift */; };
 		D28775992D26495000ABF188 /* AddImageToNavigationTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28775982D26495000ABF188 /* AddImageToNavigationTitleView.swift */; };
 		D287759B2D2649BD00ABF188 /* ColorNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D287759A2D2649BD00ABF188 /* ColorNavigationBarView.swift */; };
+		D287759D2D264ACD00ABF188 /* PaginationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D287759C2D264ACD00ABF188 /* PaginationView.swift */; };
 		D2A95F822D1E7E6100517FB3 /* DateFormattingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F812D1E7E6100517FB3 /* DateFormattingView.swift */; };
 		D2A95F842D1E7F7A00517FB3 /* ListFormattingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F832D1E7F7A00517FB3 /* ListFormattingView.swift */; };
 		D2A95F872D1E809500517FB3 /* MagnifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F862D1E809500517FB3 /* MagnifyView.swift */; };
@@ -121,6 +122,7 @@
 		D28775962D26482500ABF188 /* ToolbarItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarItemsView.swift; sourceTree = "<group>"; };
 		D28775982D26495000ABF188 /* AddImageToNavigationTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddImageToNavigationTitleView.swift; sourceTree = "<group>"; };
 		D287759A2D2649BD00ABF188 /* ColorNavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorNavigationBarView.swift; sourceTree = "<group>"; };
+		D287759C2D264ACD00ABF188 /* PaginationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginationView.swift; sourceTree = "<group>"; };
 		D2A95F812D1E7E6100517FB3 /* DateFormattingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormattingView.swift; sourceTree = "<group>"; };
 		D2A95F832D1E7F7A00517FB3 /* ListFormattingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFormattingView.swift; sourceTree = "<group>"; };
 		D2A95F862D1E809500517FB3 /* MagnifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnifyView.swift; sourceTree = "<group>"; };
@@ -293,6 +295,7 @@
 				D28775962D26482500ABF188 /* ToolbarItemsView.swift */,
 				D28775982D26495000ABF188 /* AddImageToNavigationTitleView.swift */,
 				D287759A2D2649BD00ABF188 /* ColorNavigationBarView.swift */,
+				D287759C2D264ACD00ABF188 /* PaginationView.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -408,6 +411,7 @@
 				D28775882D25532B00ABF188 /* Stock.swift in Sources */,
 				D2A95F8B2D1E836700517FB3 /* DragView.swift in Sources */,
 				D20BD8572D158CD500AF4BD3 /* SwipeActionListView.swift in Sources */,
+				D287759D2D264ACD00ABF188 /* PaginationView.swift in Sources */,
 				D28775782D22650F00ABF188 /* DisplayImageView.swift in Sources */,
 				D2A95F822D1E7E6100517FB3 /* DateFormattingView.swift in Sources */,
 				D20BD8462D14099800AF4BD3 /* AddRemoveMoveItemsListView.swift in Sources */,
