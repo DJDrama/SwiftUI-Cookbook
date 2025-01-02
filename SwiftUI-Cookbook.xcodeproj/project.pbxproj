@@ -57,6 +57,7 @@
 		D28775932D26357900ABF188 /* NavigationDestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28775922D26357900ABF188 /* NavigationDestinationView.swift */; };
 		D28775952D26375800ABF188 /* UnwindNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28775942D26375800ABF188 /* UnwindNavigationView.swift */; };
 		D28775972D26482500ABF188 /* ToolbarItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28775962D26482500ABF188 /* ToolbarItemsView.swift */; };
+		D28775992D26495000ABF188 /* AddImageToNavigationTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28775982D26495000ABF188 /* AddImageToNavigationTitleView.swift */; };
 		D2A95F822D1E7E6100517FB3 /* DateFormattingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F812D1E7E6100517FB3 /* DateFormattingView.swift */; };
 		D2A95F842D1E7F7A00517FB3 /* ListFormattingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F832D1E7F7A00517FB3 /* ListFormattingView.swift */; };
 		D2A95F872D1E809500517FB3 /* MagnifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F862D1E809500517FB3 /* MagnifyView.swift */; };
@@ -117,6 +118,7 @@
 		D28775922D26357900ABF188 /* NavigationDestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDestinationView.swift; sourceTree = "<group>"; };
 		D28775942D26375800ABF188 /* UnwindNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnwindNavigationView.swift; sourceTree = "<group>"; };
 		D28775962D26482500ABF188 /* ToolbarItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarItemsView.swift; sourceTree = "<group>"; };
+		D28775982D26495000ABF188 /* AddImageToNavigationTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddImageToNavigationTitleView.swift; sourceTree = "<group>"; };
 		D2A95F812D1E7E6100517FB3 /* DateFormattingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormattingView.swift; sourceTree = "<group>"; };
 		D2A95F832D1E7F7A00517FB3 /* ListFormattingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFormattingView.swift; sourceTree = "<group>"; };
 		D2A95F862D1E809500517FB3 /* MagnifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnifyView.swift; sourceTree = "<group>"; };
@@ -287,6 +289,7 @@
 				D28775922D26357900ABF188 /* NavigationDestinationView.swift */,
 				D28775942D26375800ABF188 /* UnwindNavigationView.swift */,
 				D28775962D26482500ABF188 /* ToolbarItemsView.swift */,
+				D28775982D26495000ABF188 /* AddImageToNavigationTitleView.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -390,6 +393,7 @@
 				D28775812D254F5C00ABF188 /* ShapesAndPathsView.swift in Sources */,
 				D287757D2D254CFB00ABF188 /* GradientsView.swift in Sources */,
 				D287757F2D254E6F00ABF188 /* RoundedCornersView.swift in Sources */,
+				D28775992D26495000ABF188 /* AddImageToNavigationTitleView.swift in Sources */,
 				D20BD85F2D19367000AF4BD3 /* CheckBoxListView.swift in Sources */,
 				D2A95F842D1E7F7A00517FB3 /* ListFormattingView.swift in Sources */,
 				D20BD86B2D1D479C00AF4BD3 /* WrapHstackInMultipleLinesView.swift in Sources */,
