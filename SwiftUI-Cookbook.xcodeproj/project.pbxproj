@@ -68,6 +68,7 @@
 		D2A95F892D1E827900517FB3 /* RotateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F882D1E827900517FB3 /* RotateView.swift */; };
 		D2A95F8B2D1E836700517FB3 /* DragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F8A2D1E836700517FB3 /* DragView.swift */; };
 		D2A95F8D2D1E84FF00517FB3 /* 3DRotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F8C2D1E84FF00517FB3 /* 3DRotationView.swift */; };
+		D2ABF2A12D2BAC3E004CE3AE /* PreviewSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABF2A02D2BAC3E004CE3AE /* PreviewSettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -133,6 +134,7 @@
 		D2A95F882D1E827900517FB3 /* RotateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateView.swift; sourceTree = "<group>"; };
 		D2A95F8A2D1E836700517FB3 /* DragView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragView.swift; sourceTree = "<group>"; };
 		D2A95F8C2D1E84FF00517FB3 /* 3DRotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3DRotationView.swift; sourceTree = "<group>"; };
+		D2ABF2A02D2BAC3E004CE3AE /* PreviewSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewSettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 		D20BD8312D13FF3100AF4BD3 /* SwiftUI-Cookbook */ = {
 			isa = PBXGroup;
 			children = (
+				D2ABF29F2D2BAC11004CE3AE /* PreviewSettings */,
 				D287758D2D2633C600ABF188 /* Navigation */,
 				D287757B2D254CE400ABF188 /* Graphics, Shapes, Paths and Effects */,
 				D287755B2D22582400ABF188 /* Data-Flow */,
@@ -326,6 +329,14 @@
 			path = Gestures;
 			sourceTree = "<group>";
 		};
+		D2ABF29F2D2BAC11004CE3AE /* PreviewSettings */ = {
+			isa = PBXGroup;
+			children = (
+				D2ABF2A02D2BAC3E004CE3AE /* PreviewSettingsView.swift */,
+			);
+			path = PreviewSettings;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -430,6 +441,7 @@
 				D20BD8612D19383A00AF4BD3 /* RadioButtonsListView.swift in Sources */,
 				D2A95F8D2D1E84FF00517FB3 /* 3DRotationView.swift in Sources */,
 				D287758A2D25559C00ABF188 /* RatingView.swift in Sources */,
+				D2ABF2A12D2BAC3E004CE3AE /* PreviewSettingsView.swift in Sources */,
 				D28775972D26482500ABF188 /* ToolbarItemsView.swift in Sources */,
 				D28775602D22588800ABF188 /* AddItemView.swift in Sources */,
 				D287756D2D225E8100ABF188 /* OnChangeModifierView.swift in Sources */,
