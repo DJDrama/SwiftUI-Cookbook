@@ -69,6 +69,8 @@
 		D2A95F8B2D1E836700517FB3 /* DragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F8A2D1E836700517FB3 /* DragView.swift */; };
 		D2A95F8D2D1E84FF00517FB3 /* 3DRotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A95F8C2D1E84FF00517FB3 /* 3DRotationView.swift */; };
 		D2ABF2A12D2BAC3E004CE3AE /* PreviewSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABF2A02D2BAC3E004CE3AE /* PreviewSettingsView.swift */; };
+		D2ABF2A42D2BB034004CE3AE /* OpenCloseSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABF2A32D2BB034004CE3AE /* OpenCloseSheetView.swift */; };
+		D2ABF2A62D2BB059004CE3AE /* AddItemSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABF2A52D2BB059004CE3AE /* AddItemSheetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -135,6 +137,8 @@
 		D2A95F8A2D1E836700517FB3 /* DragView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragView.swift; sourceTree = "<group>"; };
 		D2A95F8C2D1E84FF00517FB3 /* 3DRotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3DRotationView.swift; sourceTree = "<group>"; };
 		D2ABF2A02D2BAC3E004CE3AE /* PreviewSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewSettingsView.swift; sourceTree = "<group>"; };
+		D2ABF2A32D2BB034004CE3AE /* OpenCloseSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenCloseSheetView.swift; sourceTree = "<group>"; };
+		D2ABF2A52D2BB059004CE3AE /* AddItemSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemSheetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +171,7 @@
 		D20BD8312D13FF3100AF4BD3 /* SwiftUI-Cookbook */ = {
 			isa = PBXGroup;
 			children = (
+				D2ABF2A22D2BB01E004CE3AE /* Sheets */,
 				D2ABF29F2D2BAC11004CE3AE /* PreviewSettings */,
 				D287758D2D2633C600ABF188 /* Navigation */,
 				D287757B2D254CE400ABF188 /* Graphics, Shapes, Paths and Effects */,
@@ -337,6 +342,15 @@
 			path = PreviewSettings;
 			sourceTree = "<group>";
 		};
+		D2ABF2A22D2BB01E004CE3AE /* Sheets */ = {
+			isa = PBXGroup;
+			children = (
+				D2ABF2A32D2BB034004CE3AE /* OpenCloseSheetView.swift */,
+				D2ABF2A52D2BB059004CE3AE /* AddItemSheetView.swift */,
+			);
+			path = Sheets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -413,6 +427,7 @@
 				D20BD8652D1D39B100AF4BD3 /* SimpleGridView.swift in Sources */,
 				D28775632D225B1200ABF188 /* GlobalStateView.swift in Sources */,
 				D287759F2D264B8200ABF188 /* NavigationStackView.swift in Sources */,
+				D2ABF2A42D2BB034004CE3AE /* OpenCloseSheetView.swift in Sources */,
 				D20BD8532D1587A300AF4BD3 /* ClickableCompleteRowListView.swift in Sources */,
 				D28775812D254F5C00ABF188 /* ShapesAndPathsView.swift in Sources */,
 				D287757D2D254CFB00ABF188 /* GradientsView.swift in Sources */,
@@ -449,6 +464,7 @@
 				D28775912D2634BC00ABF188 /* PassToDetailViewFromListView.swift in Sources */,
 				D2A95F872D1E809500517FB3 /* MagnifyView.swift in Sources */,
 				D20BD84A2D14114E00AF4BD3 /* GroupedListView.swift in Sources */,
+				D2ABF2A62D2BB059004CE3AE /* AddItemSheetView.swift in Sources */,
 				D20BD8442D1407FE00AF4BD3 /* AlternateRowStyleListView.swift in Sources */,
 				D28775692D225BD800ABF188 /* Counter.swift in Sources */,
 				D20BD8512D1584B900AF4BD3 /* SearchAndFilterResultsListView.swift in Sources */,
