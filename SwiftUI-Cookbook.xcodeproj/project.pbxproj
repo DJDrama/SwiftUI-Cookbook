@@ -71,6 +71,7 @@
 		D2ABF2A12D2BAC3E004CE3AE /* PreviewSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABF2A02D2BAC3E004CE3AE /* PreviewSettingsView.swift */; };
 		D2ABF2A42D2BB034004CE3AE /* OpenCloseSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABF2A32D2BB034004CE3AE /* OpenCloseSheetView.swift */; };
 		D2ABF2A62D2BB059004CE3AE /* AddItemSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABF2A52D2BB059004CE3AE /* AddItemSheetView.swift */; };
+		D2ABF2A82D2BB208004CE3AE /* OpenMultipleSheetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABF2A72D2BB208004CE3AE /* OpenMultipleSheetsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -139,6 +140,7 @@
 		D2ABF2A02D2BAC3E004CE3AE /* PreviewSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewSettingsView.swift; sourceTree = "<group>"; };
 		D2ABF2A32D2BB034004CE3AE /* OpenCloseSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenCloseSheetView.swift; sourceTree = "<group>"; };
 		D2ABF2A52D2BB059004CE3AE /* AddItemSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemSheetView.swift; sourceTree = "<group>"; };
+		D2ABF2A72D2BB208004CE3AE /* OpenMultipleSheetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenMultipleSheetsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -347,6 +349,7 @@
 			children = (
 				D2ABF2A32D2BB034004CE3AE /* OpenCloseSheetView.swift */,
 				D2ABF2A52D2BB059004CE3AE /* AddItemSheetView.swift */,
+				D2ABF2A72D2BB208004CE3AE /* OpenMultipleSheetsView.swift */,
 			);
 			path = Sheets;
 			sourceTree = "<group>";
@@ -437,6 +440,7 @@
 				D2A95F842D1E7F7A00517FB3 /* ListFormattingView.swift in Sources */,
 				D20BD86B2D1D479C00AF4BD3 /* WrapHstackInMultipleLinesView.swift in Sources */,
 				D28775932D26357900ABF188 /* NavigationDestinationView.swift in Sources */,
+				D2ABF2A82D2BB208004CE3AE /* OpenMultipleSheetsView.swift in Sources */,
 				D287756B2D225DC400ABF188 /* OptionalBindingsView.swift in Sources */,
 				D28775952D26375800ABF188 /* UnwindNavigationView.swift in Sources */,
 				D287755D2D22584000ABF188 /* PassDataFromChildToParentUsingBindingView.swift in Sources */,
