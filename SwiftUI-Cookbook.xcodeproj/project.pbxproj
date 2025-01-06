@@ -72,6 +72,7 @@
 		D2ABF2A42D2BB034004CE3AE /* OpenCloseSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABF2A32D2BB034004CE3AE /* OpenCloseSheetView.swift */; };
 		D2ABF2A62D2BB059004CE3AE /* AddItemSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABF2A52D2BB059004CE3AE /* AddItemSheetView.swift */; };
 		D2ABF2A82D2BB208004CE3AE /* OpenMultipleSheetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABF2A72D2BB208004CE3AE /* OpenMultipleSheetsView.swift */; };
+		D2ABF2AA2D2BB2EF004CE3AE /* DisplayQuarterHalfFullScreenSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABF2A92D2BB2EF004CE3AE /* DisplayQuarterHalfFullScreenSheetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -141,6 +142,7 @@
 		D2ABF2A32D2BB034004CE3AE /* OpenCloseSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenCloseSheetView.swift; sourceTree = "<group>"; };
 		D2ABF2A52D2BB059004CE3AE /* AddItemSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemSheetView.swift; sourceTree = "<group>"; };
 		D2ABF2A72D2BB208004CE3AE /* OpenMultipleSheetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenMultipleSheetsView.swift; sourceTree = "<group>"; };
+		D2ABF2A92D2BB2EF004CE3AE /* DisplayQuarterHalfFullScreenSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayQuarterHalfFullScreenSheetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -350,6 +352,7 @@
 				D2ABF2A32D2BB034004CE3AE /* OpenCloseSheetView.swift */,
 				D2ABF2A52D2BB059004CE3AE /* AddItemSheetView.swift */,
 				D2ABF2A72D2BB208004CE3AE /* OpenMultipleSheetsView.swift */,
+				D2ABF2A92D2BB2EF004CE3AE /* DisplayQuarterHalfFullScreenSheetView.swift */,
 			);
 			path = Sheets;
 			sourceTree = "<group>";
@@ -426,6 +429,7 @@
 			files = (
 				D20BD8352D13FF3100AF4BD3 /* ContentView.swift in Sources */,
 				D28775852D2552EA00ABF188 /* BarChartView.swift in Sources */,
+				D2ABF2AA2D2BB2EF004CE3AE /* DisplayQuarterHalfFullScreenSheetView.swift in Sources */,
 				D20BD8332D13FF3100AF4BD3 /* SwiftUI_CookbookApp.swift in Sources */,
 				D20BD8652D1D39B100AF4BD3 /* SimpleGridView.swift in Sources */,
 				D28775632D225B1200ABF188 /* GlobalStateView.swift in Sources */,
