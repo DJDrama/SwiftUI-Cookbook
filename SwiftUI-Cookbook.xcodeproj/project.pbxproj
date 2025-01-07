@@ -77,6 +77,9 @@
 		D2ABF2AF2D2CF5A9004CE3AE /* MultipleColumnPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABF2AE2D2CF5A9004CE3AE /* MultipleColumnPickerView.swift */; };
 		D2ABF2B12D2CF8E5004CE3AE /* SegmentedControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABF2B02D2CF8E5004CE3AE /* SegmentedControlView.swift */; };
 		D2ABF2B32D2CF9BD004CE3AE /* EnumSegmentedControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABF2B22D2CF9BD004CE3AE /* EnumSegmentedControlView.swift */; };
+		D2ABF2B62D2CFB05004CE3AE /* IntegrateCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABF2B52D2CFB05004CE3AE /* IntegrateCameraView.swift */; };
+		D2ABF2B82D2CFBB7004CE3AE /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABF2B72D2CFBB7004CE3AE /* ImagePicker.swift */; };
+		D2ABF2BA2D2CFDE7004CE3AE /* PhotoCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABF2B92D2CFDE7004CE3AE /* PhotoCaptureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -151,6 +154,9 @@
 		D2ABF2AE2D2CF5A9004CE3AE /* MultipleColumnPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleColumnPickerView.swift; sourceTree = "<group>"; };
 		D2ABF2B02D2CF8E5004CE3AE /* SegmentedControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlView.swift; sourceTree = "<group>"; };
 		D2ABF2B22D2CF9BD004CE3AE /* EnumSegmentedControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumSegmentedControlView.swift; sourceTree = "<group>"; };
+		D2ABF2B52D2CFB05004CE3AE /* IntegrateCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegrateCameraView.swift; sourceTree = "<group>"; };
+		D2ABF2B72D2CFBB7004CE3AE /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		D2ABF2B92D2CFDE7004CE3AE /* PhotoCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +189,7 @@
 		D20BD8312D13FF3100AF4BD3 /* SwiftUI-Cookbook */ = {
 			isa = PBXGroup;
 			children = (
+				D2ABF2B42D2CFAE2004CE3AE /* Camera */,
 				D2ABF2AB2D2CF1D4004CE3AE /* Pickers */,
 				D2ABF2A22D2BB01E004CE3AE /* Sheets */,
 				D2ABF29F2D2BAC11004CE3AE /* PreviewSettings */,
@@ -377,6 +384,16 @@
 			path = Pickers;
 			sourceTree = "<group>";
 		};
+		D2ABF2B42D2CFAE2004CE3AE /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				D2ABF2B52D2CFB05004CE3AE /* IntegrateCameraView.swift */,
+				D2ABF2B72D2CFBB7004CE3AE /* ImagePicker.swift */,
+				D2ABF2B92D2CFDE7004CE3AE /* PhotoCaptureView.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -463,6 +480,9 @@
 				D28775992D26495000ABF188 /* AddImageToNavigationTitleView.swift in Sources */,
 				D20BD85F2D19367000AF4BD3 /* CheckBoxListView.swift in Sources */,
 				D2A95F842D1E7F7A00517FB3 /* ListFormattingView.swift in Sources */,
+				D2ABF2B62D2CFB05004CE3AE /* IntegrateCameraView.swift in Sources */,
+				D2ABF2BA2D2CFDE7004CE3AE /* PhotoCaptureView.swift in Sources */,
+				D2ABF2B82D2CFBB7004CE3AE /* ImagePicker.swift in Sources */,
 				D20BD86B2D1D479C00AF4BD3 /* WrapHstackInMultipleLinesView.swift in Sources */,
 				D28775932D26357900ABF188 /* NavigationDestinationView.swift in Sources */,
 				D2ABF2A82D2BB208004CE3AE /* OpenMultipleSheetsView.swift in Sources */,
