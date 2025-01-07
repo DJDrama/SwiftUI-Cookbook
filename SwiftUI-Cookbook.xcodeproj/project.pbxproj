@@ -75,6 +75,7 @@
 		D2ABF2AA2D2BB2EF004CE3AE /* DisplayQuarterHalfFullScreenSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABF2A92D2BB2EF004CE3AE /* DisplayQuarterHalfFullScreenSheetView.swift */; };
 		D2ABF2AD2D2CF1E7004CE3AE /* SingleColumnPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABF2AC2D2CF1E7004CE3AE /* SingleColumnPickerView.swift */; };
 		D2ABF2AF2D2CF5A9004CE3AE /* MultipleColumnPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABF2AE2D2CF5A9004CE3AE /* MultipleColumnPickerView.swift */; };
+		D2ABF2B12D2CF8E5004CE3AE /* SegmentedControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABF2B02D2CF8E5004CE3AE /* SegmentedControlView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -147,6 +148,7 @@
 		D2ABF2A92D2BB2EF004CE3AE /* DisplayQuarterHalfFullScreenSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayQuarterHalfFullScreenSheetView.swift; sourceTree = "<group>"; };
 		D2ABF2AC2D2CF1E7004CE3AE /* SingleColumnPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleColumnPickerView.swift; sourceTree = "<group>"; };
 		D2ABF2AE2D2CF5A9004CE3AE /* MultipleColumnPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleColumnPickerView.swift; sourceTree = "<group>"; };
+		D2ABF2B02D2CF8E5004CE3AE /* SegmentedControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -367,6 +369,7 @@
 			children = (
 				D2ABF2AC2D2CF1E7004CE3AE /* SingleColumnPickerView.swift */,
 				D2ABF2AE2D2CF5A9004CE3AE /* MultipleColumnPickerView.swift */,
+				D2ABF2B02D2CF8E5004CE3AE /* SegmentedControlView.swift */,
 			);
 			path = Pickers;
 			sourceTree = "<group>";
@@ -500,6 +503,7 @@
 				D28775672D225B4800ABF188 /* RedCounterView.swift in Sources */,
 				D20BD85B2D1930A500AF4BD3 /* CollapsibleHeadersListView.swift in Sources */,
 				D28775652D225B4100ABF188 /* GreenCounterView.swift in Sources */,
+				D2ABF2B12D2CF8E5004CE3AE /* SegmentedControlView.swift in Sources */,
 				D20BD8672D1D3CC600AF4BD3 /* StickyHeaderGridView.swift in Sources */,
 				D28775832D25504000ABF188 /* LineGraphView.swift in Sources */,
 				D20BD8422D14058A00AF4BD3 /* SimpleListView.swift in Sources */,
