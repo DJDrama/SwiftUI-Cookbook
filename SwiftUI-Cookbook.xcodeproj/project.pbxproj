@@ -74,6 +74,7 @@
 		D2ABF2A82D2BB208004CE3AE /* OpenMultipleSheetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABF2A72D2BB208004CE3AE /* OpenMultipleSheetsView.swift */; };
 		D2ABF2AA2D2BB2EF004CE3AE /* DisplayQuarterHalfFullScreenSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABF2A92D2BB2EF004CE3AE /* DisplayQuarterHalfFullScreenSheetView.swift */; };
 		D2ABF2AD2D2CF1E7004CE3AE /* SingleColumnPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABF2AC2D2CF1E7004CE3AE /* SingleColumnPickerView.swift */; };
+		D2ABF2AF2D2CF5A9004CE3AE /* MultipleColumnPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABF2AE2D2CF5A9004CE3AE /* MultipleColumnPickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -145,6 +146,7 @@
 		D2ABF2A72D2BB208004CE3AE /* OpenMultipleSheetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenMultipleSheetsView.swift; sourceTree = "<group>"; };
 		D2ABF2A92D2BB2EF004CE3AE /* DisplayQuarterHalfFullScreenSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayQuarterHalfFullScreenSheetView.swift; sourceTree = "<group>"; };
 		D2ABF2AC2D2CF1E7004CE3AE /* SingleColumnPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleColumnPickerView.swift; sourceTree = "<group>"; };
+		D2ABF2AE2D2CF5A9004CE3AE /* MultipleColumnPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleColumnPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -364,6 +366,7 @@
 			isa = PBXGroup;
 			children = (
 				D2ABF2AC2D2CF1E7004CE3AE /* SingleColumnPickerView.swift */,
+				D2ABF2AE2D2CF5A9004CE3AE /* MultipleColumnPickerView.swift */,
 			);
 			path = Pickers;
 			sourceTree = "<group>";
@@ -446,6 +449,7 @@
 				D28775632D225B1200ABF188 /* GlobalStateView.swift in Sources */,
 				D287759F2D264B8200ABF188 /* NavigationStackView.swift in Sources */,
 				D2ABF2A42D2BB034004CE3AE /* OpenCloseSheetView.swift in Sources */,
+				D2ABF2AF2D2CF5A9004CE3AE /* MultipleColumnPickerView.swift in Sources */,
 				D20BD8532D1587A300AF4BD3 /* ClickableCompleteRowListView.swift in Sources */,
 				D28775812D254F5C00ABF188 /* ShapesAndPathsView.swift in Sources */,
 				D287757D2D254CFB00ABF188 /* GradientsView.swift in Sources */,
