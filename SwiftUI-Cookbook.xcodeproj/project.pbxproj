@@ -73,6 +73,7 @@
 		D2ABF2A62D2BB059004CE3AE /* AddItemSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABF2A52D2BB059004CE3AE /* AddItemSheetView.swift */; };
 		D2ABF2A82D2BB208004CE3AE /* OpenMultipleSheetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABF2A72D2BB208004CE3AE /* OpenMultipleSheetsView.swift */; };
 		D2ABF2AA2D2BB2EF004CE3AE /* DisplayQuarterHalfFullScreenSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABF2A92D2BB2EF004CE3AE /* DisplayQuarterHalfFullScreenSheetView.swift */; };
+		D2ABF2AD2D2CF1E7004CE3AE /* SingleColumnPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABF2AC2D2CF1E7004CE3AE /* SingleColumnPickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -143,6 +144,7 @@
 		D2ABF2A52D2BB059004CE3AE /* AddItemSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemSheetView.swift; sourceTree = "<group>"; };
 		D2ABF2A72D2BB208004CE3AE /* OpenMultipleSheetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenMultipleSheetsView.swift; sourceTree = "<group>"; };
 		D2ABF2A92D2BB2EF004CE3AE /* DisplayQuarterHalfFullScreenSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayQuarterHalfFullScreenSheetView.swift; sourceTree = "<group>"; };
+		D2ABF2AC2D2CF1E7004CE3AE /* SingleColumnPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleColumnPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +177,7 @@
 		D20BD8312D13FF3100AF4BD3 /* SwiftUI-Cookbook */ = {
 			isa = PBXGroup;
 			children = (
+				D2ABF2AB2D2CF1D4004CE3AE /* Pickers */,
 				D2ABF2A22D2BB01E004CE3AE /* Sheets */,
 				D2ABF29F2D2BAC11004CE3AE /* PreviewSettings */,
 				D287758D2D2633C600ABF188 /* Navigation */,
@@ -357,6 +360,14 @@
 			path = Sheets;
 			sourceTree = "<group>";
 		};
+		D2ABF2AB2D2CF1D4004CE3AE /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				D2ABF2AC2D2CF1E7004CE3AE /* SingleColumnPickerView.swift */,
+			);
+			path = Pickers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -488,6 +499,7 @@
 				D20BD8672D1D3CC600AF4BD3 /* StickyHeaderGridView.swift in Sources */,
 				D28775832D25504000ABF188 /* LineGraphView.swift in Sources */,
 				D20BD8422D14058A00AF4BD3 /* SimpleListView.swift in Sources */,
+				D2ABF2AD2D2CF1E7004CE3AE /* SingleColumnPickerView.swift in Sources */,
 				D287758C2D255D6B00ABF188 /* BlurEffectsView.swift in Sources */,
 				D28775762D22640600ABF188 /* URLImageView.swift in Sources */,
 				D28775742D22635000ABF188 /* ImageLoader.swift in Sources */,
