@@ -76,6 +76,7 @@
 		D2ABF2AD2D2CF1E7004CE3AE /* SingleColumnPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABF2AC2D2CF1E7004CE3AE /* SingleColumnPickerView.swift */; };
 		D2ABF2AF2D2CF5A9004CE3AE /* MultipleColumnPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABF2AE2D2CF5A9004CE3AE /* MultipleColumnPickerView.swift */; };
 		D2ABF2B12D2CF8E5004CE3AE /* SegmentedControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABF2B02D2CF8E5004CE3AE /* SegmentedControlView.swift */; };
+		D2ABF2B32D2CF9BD004CE3AE /* EnumSegmentedControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABF2B22D2CF9BD004CE3AE /* EnumSegmentedControlView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -149,6 +150,7 @@
 		D2ABF2AC2D2CF1E7004CE3AE /* SingleColumnPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleColumnPickerView.swift; sourceTree = "<group>"; };
 		D2ABF2AE2D2CF5A9004CE3AE /* MultipleColumnPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleColumnPickerView.swift; sourceTree = "<group>"; };
 		D2ABF2B02D2CF8E5004CE3AE /* SegmentedControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlView.swift; sourceTree = "<group>"; };
+		D2ABF2B22D2CF9BD004CE3AE /* EnumSegmentedControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumSegmentedControlView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -370,6 +372,7 @@
 				D2ABF2AC2D2CF1E7004CE3AE /* SingleColumnPickerView.swift */,
 				D2ABF2AE2D2CF5A9004CE3AE /* MultipleColumnPickerView.swift */,
 				D2ABF2B02D2CF8E5004CE3AE /* SegmentedControlView.swift */,
+				D2ABF2B22D2CF9BD004CE3AE /* EnumSegmentedControlView.swift */,
 			);
 			path = Pickers;
 			sourceTree = "<group>";
@@ -482,6 +485,7 @@
 				D20BD8612D19383A00AF4BD3 /* RadioButtonsListView.swift in Sources */,
 				D2A95F8D2D1E84FF00517FB3 /* 3DRotationView.swift in Sources */,
 				D287758A2D25559C00ABF188 /* RatingView.swift in Sources */,
+				D2ABF2B32D2CF9BD004CE3AE /* EnumSegmentedControlView.swift in Sources */,
 				D2ABF2A12D2BAC3E004CE3AE /* PreviewSettingsView.swift in Sources */,
 				D28775972D26482500ABF188 /* ToolbarItemsView.swift in Sources */,
 				D28775602D22588800ABF188 /* AddItemView.swift in Sources */,

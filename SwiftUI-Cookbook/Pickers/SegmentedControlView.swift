@@ -16,7 +16,7 @@ struct SegmentedControlView: View {
                 Text("Student").tag("Student")
                 Text("Staff").tag("Staff")
                 Text("Faculty").tag("Faculty")
-            }.pickerStyle(SegmentedPickerStyle())
+            }.pickerStyle(.segmented)
             
             Text(selection)
         }
