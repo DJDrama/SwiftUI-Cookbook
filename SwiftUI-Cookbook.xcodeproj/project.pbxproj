@@ -87,6 +87,12 @@
 		D2C0D0D42D2FD6F10062736B /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C0D0D32D2FD6F10062736B /* LocationManager.swift */; };
 		D2C0D0D62D2FD8550062736B /* MKCoordinateRegion+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C0D0D52D2FD8550062736B /* MKCoordinateRegion+Extensions.swift */; };
 		D2C0D0D82D2FDA8C0062736B /* DiferentMapTypesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C0D0D72D2FDA8C0062736B /* DiferentMapTypesView.swift */; };
+		D2C0D0DB2D2FEE330062736B /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C0D0DA2D2FEE330062736B /* AsyncImageView.swift */; };
+		D2C0D0DD2D2FEF380062736B /* PullToRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C0D0DC2D2FEF380062736B /* PullToRefreshView.swift */; };
+		D2C0D0DF2D2FF0440062736B /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C0D0DE2D2FF0440062736B /* TimelineView.swift */; };
+		D2C0D0E12D2FF1050062736B /* SearchableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C0D0E02D2FF1050062736B /* SearchableView.swift */; };
+		D2C0D0E32D2FF20D0062736B /* SwipeActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C0D0E22D2FF20D0062736B /* SwipeActionView.swift */; };
+		D2C0D0E52D2FF3450062736B /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C0D0E42D2FF3450062736B /* BlurView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -171,6 +177,12 @@
 		D2C0D0D32D2FD6F10062736B /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		D2C0D0D52D2FD8550062736B /* MKCoordinateRegion+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKCoordinateRegion+Extensions.swift"; sourceTree = "<group>"; };
 		D2C0D0D72D2FDA8C0062736B /* DiferentMapTypesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiferentMapTypesView.swift; sourceTree = "<group>"; };
+		D2C0D0DA2D2FEE330062736B /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		D2C0D0DC2D2FEF380062736B /* PullToRefreshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToRefreshView.swift; sourceTree = "<group>"; };
+		D2C0D0DE2D2FF0440062736B /* TimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
+		D2C0D0E02D2FF1050062736B /* SearchableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableView.swift; sourceTree = "<group>"; };
+		D2C0D0E22D2FF20D0062736B /* SwipeActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionView.swift; sourceTree = "<group>"; };
+		D2C0D0E42D2FF3450062736B /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +215,7 @@
 		D20BD8312D13FF3100AF4BD3 /* SwiftUI-Cookbook */ = {
 			isa = PBXGroup;
 			children = (
+				D2C0D0D92D2FEE260062736B /* Others */,
 				D2C0D0CA2D2FBE9E0062736B /* Map */,
 				D2ABF2B42D2CFAE2004CE3AE /* Camera */,
 				D2ABF2AB2D2CF1D4004CE3AE /* Pickers */,
@@ -423,6 +436,19 @@
 			path = Map;
 			sourceTree = "<group>";
 		};
+		D2C0D0D92D2FEE260062736B /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				D2C0D0DA2D2FEE330062736B /* AsyncImageView.swift */,
+				D2C0D0DC2D2FEF380062736B /* PullToRefreshView.swift */,
+				D2C0D0DE2D2FF0440062736B /* TimelineView.swift */,
+				D2C0D0E02D2FF1050062736B /* SearchableView.swift */,
+				D2C0D0E22D2FF20D0062736B /* SwipeActionView.swift */,
+				D2C0D0E42D2FF3450062736B /* BlurView.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -493,6 +519,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2C0D0DB2D2FEE330062736B /* AsyncImageView.swift in Sources */,
 				D20BD8352D13FF3100AF4BD3 /* ContentView.swift in Sources */,
 				D28775852D2552EA00ABF188 /* BarChartView.swift in Sources */,
 				D2ABF2AA2D2BB2EF004CE3AE /* DisplayQuarterHalfFullScreenSheetView.swift in Sources */,
@@ -517,8 +544,11 @@
 				D28775932D26357900ABF188 /* NavigationDestinationView.swift in Sources */,
 				D2ABF2A82D2BB208004CE3AE /* OpenMultipleSheetsView.swift in Sources */,
 				D287756B2D225DC400ABF188 /* OptionalBindingsView.swift in Sources */,
+				D2C0D0DF2D2FF0440062736B /* TimelineView.swift in Sources */,
 				D28775952D26375800ABF188 /* UnwindNavigationView.swift in Sources */,
 				D287755D2D22584000ABF188 /* PassDataFromChildToParentUsingBindingView.swift in Sources */,
+				D2C0D0E12D2FF1050062736B /* SearchableView.swift in Sources */,
+				D2C0D0E52D2FF3450062736B /* BlurView.swift in Sources */,
 				D20BD84D2D1581E800AF4BD3 /* ChangeBackgroundColorListView.swift in Sources */,
 				D28775882D25532B00ABF188 /* Stock.swift in Sources */,
 				D2A95F8B2D1E836700517FB3 /* DragView.swift in Sources */,
@@ -536,6 +566,7 @@
 				D20BD8592D192F9600AF4BD3 /* SelectMultipleItemsListView.swift in Sources */,
 				D20BD8612D19383A00AF4BD3 /* RadioButtonsListView.swift in Sources */,
 				D2A95F8D2D1E84FF00517FB3 /* 3DRotationView.swift in Sources */,
+				D2C0D0DD2D2FEF380062736B /* PullToRefreshView.swift in Sources */,
 				D287758A2D25559C00ABF188 /* RatingView.swift in Sources */,
 				D2ABF2B32D2CF9BD004CE3AE /* EnumSegmentedControlView.swift in Sources */,
 				D2ABF2A12D2BAC3E004CE3AE /* PreviewSettingsView.swift in Sources */,
@@ -564,6 +595,7 @@
 				D28775652D225B4100ABF188 /* GreenCounterView.swift in Sources */,
 				D2ABF2B12D2CF8E5004CE3AE /* SegmentedControlView.swift in Sources */,
 				D20BD8672D1D3CC600AF4BD3 /* StickyHeaderGridView.swift in Sources */,
+				D2C0D0E32D2FF20D0062736B /* SwipeActionView.swift in Sources */,
 				D2C0D0D62D2FD8550062736B /* MKCoordinateRegion+Extensions.swift in Sources */,
 				D28775832D25504000ABF188 /* LineGraphView.swift in Sources */,
 				D20BD8422D14058A00AF4BD3 /* SimpleListView.swift in Sources */,
