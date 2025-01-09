@@ -82,6 +82,7 @@
 		D2ABF2BA2D2CFDE7004CE3AE /* PhotoCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABF2B92D2CFDE7004CE3AE /* PhotoCaptureView.swift */; };
 		D2C0D0CC2D2FBEAF0062736B /* SimpleMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C0D0CB2D2FBEAF0062736B /* SimpleMapView.swift */; };
 		D2C0D0CE2D2FBFDD0062736B /* AddAnnotationsToMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C0D0CD2D2FBFDD0062736B /* AddAnnotationsToMapView.swift */; };
+		D2C0D0D02D2FC3D00062736B /* CustomAnnotationsMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C0D0CF2D2FC3D00062736B /* CustomAnnotationsMapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -161,6 +162,7 @@
 		D2ABF2B92D2CFDE7004CE3AE /* PhotoCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptureView.swift; sourceTree = "<group>"; };
 		D2C0D0CB2D2FBEAF0062736B /* SimpleMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMapView.swift; sourceTree = "<group>"; };
 		D2C0D0CD2D2FBFDD0062736B /* AddAnnotationsToMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAnnotationsToMapView.swift; sourceTree = "<group>"; };
+		D2C0D0CF2D2FC3D00062736B /* CustomAnnotationsMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotationsMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -404,6 +406,7 @@
 			children = (
 				D2C0D0CB2D2FBEAF0062736B /* SimpleMapView.swift */,
 				D2C0D0CD2D2FBFDD0062736B /* AddAnnotationsToMapView.swift */,
+				D2C0D0CF2D2FC3D00062736B /* CustomAnnotationsMapView.swift */,
 			);
 			path = Map;
 			sourceTree = "<group>";
@@ -511,6 +514,7 @@
 				D28775782D22650F00ABF188 /* DisplayImageView.swift in Sources */,
 				D2A95F822D1E7E6100517FB3 /* DateFormattingView.swift in Sources */,
 				D20BD8462D14099800AF4BD3 /* AddRemoveMoveItemsListView.swift in Sources */,
+				D2C0D0D02D2FC3D00062736B /* CustomAnnotationsMapView.swift in Sources */,
 				D2A95F892D1E827900517FB3 /* RotateView.swift in Sources */,
 				D28775A12D264D3900ABF188 /* ProgrammaticNavigationInNavigationStackView.swift in Sources */,
 				D20BD85D2D19339A00AF4BD3 /* InfiniteScrollableListView.swift in Sources */,
