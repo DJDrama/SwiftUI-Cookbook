@@ -80,6 +80,7 @@
 		D2ABF2B62D2CFB05004CE3AE /* IntegrateCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABF2B52D2CFB05004CE3AE /* IntegrateCameraView.swift */; };
 		D2ABF2B82D2CFBB7004CE3AE /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABF2B72D2CFBB7004CE3AE /* ImagePicker.swift */; };
 		D2ABF2BA2D2CFDE7004CE3AE /* PhotoCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABF2B92D2CFDE7004CE3AE /* PhotoCaptureView.swift */; };
+		D2C0D0CC2D2FBEAF0062736B /* SimpleMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C0D0CB2D2FBEAF0062736B /* SimpleMapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -157,6 +158,7 @@
 		D2ABF2B52D2CFB05004CE3AE /* IntegrateCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegrateCameraView.swift; sourceTree = "<group>"; };
 		D2ABF2B72D2CFBB7004CE3AE /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		D2ABF2B92D2CFDE7004CE3AE /* PhotoCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptureView.swift; sourceTree = "<group>"; };
+		D2C0D0CB2D2FBEAF0062736B /* SimpleMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +191,7 @@
 		D20BD8312D13FF3100AF4BD3 /* SwiftUI-Cookbook */ = {
 			isa = PBXGroup;
 			children = (
+				D2C0D0CA2D2FBE9E0062736B /* Map */,
 				D2ABF2B42D2CFAE2004CE3AE /* Camera */,
 				D2ABF2AB2D2CF1D4004CE3AE /* Pickers */,
 				D2ABF2A22D2BB01E004CE3AE /* Sheets */,
@@ -394,6 +397,14 @@
 			path = Camera;
 			sourceTree = "<group>";
 		};
+		D2C0D0CA2D2FBE9E0062736B /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				D2C0D0CB2D2FBEAF0062736B /* SimpleMapView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -513,6 +524,7 @@
 				D287758F2D2633DA00ABF188 /* NavigationLinkView.swift in Sources */,
 				D28775912D2634BC00ABF188 /* PassToDetailViewFromListView.swift in Sources */,
 				D2A95F872D1E809500517FB3 /* MagnifyView.swift in Sources */,
+				D2C0D0CC2D2FBEAF0062736B /* SimpleMapView.swift in Sources */,
 				D20BD84A2D14114E00AF4BD3 /* GroupedListView.swift in Sources */,
 				D2ABF2A62D2BB059004CE3AE /* AddItemSheetView.swift in Sources */,
 				D20BD8442D1407FE00AF4BD3 /* AlternateRowStyleListView.swift in Sources */,
