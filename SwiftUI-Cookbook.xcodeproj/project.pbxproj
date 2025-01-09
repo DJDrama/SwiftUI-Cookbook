@@ -86,6 +86,7 @@
 		D2C0D0D22D2FC6F90062736B /* DisplayUserCurrentLocationMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C0D0D12D2FC6F90062736B /* DisplayUserCurrentLocationMapView.swift */; };
 		D2C0D0D42D2FD6F10062736B /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C0D0D32D2FD6F10062736B /* LocationManager.swift */; };
 		D2C0D0D62D2FD8550062736B /* MKCoordinateRegion+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C0D0D52D2FD8550062736B /* MKCoordinateRegion+Extensions.swift */; };
+		D2C0D0D82D2FDA8C0062736B /* DiferentMapTypesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C0D0D72D2FDA8C0062736B /* DiferentMapTypesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -169,6 +170,7 @@
 		D2C0D0D12D2FC6F90062736B /* DisplayUserCurrentLocationMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayUserCurrentLocationMapView.swift; sourceTree = "<group>"; };
 		D2C0D0D32D2FD6F10062736B /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		D2C0D0D52D2FD8550062736B /* MKCoordinateRegion+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKCoordinateRegion+Extensions.swift"; sourceTree = "<group>"; };
+		D2C0D0D72D2FDA8C0062736B /* DiferentMapTypesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiferentMapTypesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -416,6 +418,7 @@
 				D2C0D0D12D2FC6F90062736B /* DisplayUserCurrentLocationMapView.swift */,
 				D2C0D0D32D2FD6F10062736B /* LocationManager.swift */,
 				D2C0D0D52D2FD8550062736B /* MKCoordinateRegion+Extensions.swift */,
+				D2C0D0D72D2FDA8C0062736B /* DiferentMapTypesView.swift */,
 			);
 			path = Map;
 			sourceTree = "<group>";
@@ -540,6 +543,7 @@
 				D28775602D22588800ABF188 /* AddItemView.swift in Sources */,
 				D287756D2D225E8100ABF188 /* OnChangeModifierView.swift in Sources */,
 				D287758F2D2633DA00ABF188 /* NavigationLinkView.swift in Sources */,
+				D2C0D0D82D2FDA8C0062736B /* DiferentMapTypesView.swift in Sources */,
 				D28775912D2634BC00ABF188 /* PassToDetailViewFromListView.swift in Sources */,
 				D2A95F872D1E809500517FB3 /* MagnifyView.swift in Sources */,
 				D2C0D0CC2D2FBEAF0062736B /* SimpleMapView.swift in Sources */,
