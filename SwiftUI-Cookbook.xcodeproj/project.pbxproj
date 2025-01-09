@@ -81,6 +81,7 @@
 		D2ABF2B82D2CFBB7004CE3AE /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABF2B72D2CFBB7004CE3AE /* ImagePicker.swift */; };
 		D2ABF2BA2D2CFDE7004CE3AE /* PhotoCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ABF2B92D2CFDE7004CE3AE /* PhotoCaptureView.swift */; };
 		D2C0D0CC2D2FBEAF0062736B /* SimpleMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C0D0CB2D2FBEAF0062736B /* SimpleMapView.swift */; };
+		D2C0D0CE2D2FBFDD0062736B /* AddAnnotationsToMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C0D0CD2D2FBFDD0062736B /* AddAnnotationsToMapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -159,6 +160,7 @@
 		D2ABF2B72D2CFBB7004CE3AE /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		D2ABF2B92D2CFDE7004CE3AE /* PhotoCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptureView.swift; sourceTree = "<group>"; };
 		D2C0D0CB2D2FBEAF0062736B /* SimpleMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMapView.swift; sourceTree = "<group>"; };
+		D2C0D0CD2D2FBFDD0062736B /* AddAnnotationsToMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAnnotationsToMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -401,6 +403,7 @@
 			isa = PBXGroup;
 			children = (
 				D2C0D0CB2D2FBEAF0062736B /* SimpleMapView.swift */,
+				D2C0D0CD2D2FBFDD0062736B /* AddAnnotationsToMapView.swift */,
 			);
 			path = Map;
 			sourceTree = "<group>";
@@ -528,6 +531,7 @@
 				D20BD84A2D14114E00AF4BD3 /* GroupedListView.swift in Sources */,
 				D2ABF2A62D2BB059004CE3AE /* AddItemSheetView.swift in Sources */,
 				D20BD8442D1407FE00AF4BD3 /* AlternateRowStyleListView.swift in Sources */,
+				D2C0D0CE2D2FBFDD0062736B /* AddAnnotationsToMapView.swift in Sources */,
 				D28775692D225BD800ABF188 /* Counter.swift in Sources */,
 				D20BD8512D1584B900AF4BD3 /* SearchAndFilterResultsListView.swift in Sources */,
 				D20BD84F2D1583BF00AF4BD3 /* PullToRefreshListView.swift in Sources */,
