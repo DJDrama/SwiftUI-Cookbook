@@ -83,6 +83,9 @@
 		D2C0D0CC2D2FBEAF0062736B /* SimpleMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C0D0CB2D2FBEAF0062736B /* SimpleMapView.swift */; };
 		D2C0D0CE2D2FBFDD0062736B /* AddAnnotationsToMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C0D0CD2D2FBFDD0062736B /* AddAnnotationsToMapView.swift */; };
 		D2C0D0D02D2FC3D00062736B /* CustomAnnotationsMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C0D0CF2D2FC3D00062736B /* CustomAnnotationsMapView.swift */; };
+		D2C0D0D22D2FC6F90062736B /* DisplayUserCurrentLocationMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C0D0D12D2FC6F90062736B /* DisplayUserCurrentLocationMapView.swift */; };
+		D2C0D0D42D2FD6F10062736B /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C0D0D32D2FD6F10062736B /* LocationManager.swift */; };
+		D2C0D0D62D2FD8550062736B /* MKCoordinateRegion+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C0D0D52D2FD8550062736B /* MKCoordinateRegion+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -163,6 +166,9 @@
 		D2C0D0CB2D2FBEAF0062736B /* SimpleMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMapView.swift; sourceTree = "<group>"; };
 		D2C0D0CD2D2FBFDD0062736B /* AddAnnotationsToMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAnnotationsToMapView.swift; sourceTree = "<group>"; };
 		D2C0D0CF2D2FC3D00062736B /* CustomAnnotationsMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotationsMapView.swift; sourceTree = "<group>"; };
+		D2C0D0D12D2FC6F90062736B /* DisplayUserCurrentLocationMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayUserCurrentLocationMapView.swift; sourceTree = "<group>"; };
+		D2C0D0D32D2FD6F10062736B /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		D2C0D0D52D2FD8550062736B /* MKCoordinateRegion+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKCoordinateRegion+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -407,6 +413,9 @@
 				D2C0D0CB2D2FBEAF0062736B /* SimpleMapView.swift */,
 				D2C0D0CD2D2FBFDD0062736B /* AddAnnotationsToMapView.swift */,
 				D2C0D0CF2D2FC3D00062736B /* CustomAnnotationsMapView.swift */,
+				D2C0D0D12D2FC6F90062736B /* DisplayUserCurrentLocationMapView.swift */,
+				D2C0D0D32D2FD6F10062736B /* LocationManager.swift */,
+				D2C0D0D52D2FD8550062736B /* MKCoordinateRegion+Extensions.swift */,
 			);
 			path = Map;
 			sourceTree = "<group>";
@@ -496,6 +505,7 @@
 				D287757F2D254E6F00ABF188 /* RoundedCornersView.swift in Sources */,
 				D28775992D26495000ABF188 /* AddImageToNavigationTitleView.swift in Sources */,
 				D20BD85F2D19367000AF4BD3 /* CheckBoxListView.swift in Sources */,
+				D2C0D0D22D2FC6F90062736B /* DisplayUserCurrentLocationMapView.swift in Sources */,
 				D2A95F842D1E7F7A00517FB3 /* ListFormattingView.swift in Sources */,
 				D2ABF2B62D2CFB05004CE3AE /* IntegrateCameraView.swift in Sources */,
 				D2ABF2BA2D2CFDE7004CE3AE /* PhotoCaptureView.swift in Sources */,
@@ -516,6 +526,7 @@
 				D20BD8462D14099800AF4BD3 /* AddRemoveMoveItemsListView.swift in Sources */,
 				D2C0D0D02D2FC3D00062736B /* CustomAnnotationsMapView.swift in Sources */,
 				D2A95F892D1E827900517FB3 /* RotateView.swift in Sources */,
+				D2C0D0D42D2FD6F10062736B /* LocationManager.swift in Sources */,
 				D28775A12D264D3900ABF188 /* ProgrammaticNavigationInNavigationStackView.swift in Sources */,
 				D20BD85D2D19339A00AF4BD3 /* InfiniteScrollableListView.swift in Sources */,
 				D20BD8482D1410D700AF4BD3 /* RemoveSeparateStyleListView.swift in Sources */,
@@ -549,6 +560,7 @@
 				D28775652D225B4100ABF188 /* GreenCounterView.swift in Sources */,
 				D2ABF2B12D2CF8E5004CE3AE /* SegmentedControlView.swift in Sources */,
 				D20BD8672D1D3CC600AF4BD3 /* StickyHeaderGridView.swift in Sources */,
+				D2C0D0D62D2FD8550062736B /* MKCoordinateRegion+Extensions.swift in Sources */,
 				D28775832D25504000ABF188 /* LineGraphView.swift in Sources */,
 				D20BD8422D14058A00AF4BD3 /* SimpleListView.swift in Sources */,
 				D2ABF2AD2D2CF1E7004CE3AE /* SingleColumnPickerView.swift in Sources */,
@@ -691,6 +703,7 @@
 				DEVELOPMENT_TEAM = A4VS9W3DA9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires your location!";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -720,6 +733,7 @@
 				DEVELOPMENT_TEAM = A4VS9W3DA9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires your location!";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
